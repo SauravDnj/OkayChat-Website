@@ -7,7 +7,7 @@ export function PhoneFrame({
   children,
   className,
   footer,
-  title = "WALOOP",
+  title = "OkayChat",
   subtitle = "Business account",
 }: {
   children: React.ReactNode;
@@ -19,7 +19,7 @@ export function PhoneFrame({
   return (
     <div
       className={cn(
-        "relative mx-auto w-full max-w-[330px] rounded-[2.6rem] border border-[#1b2a4a] bg-[#0a1430] p-2.5 shadow-[0_30px_60px_-20px_rgba(7,19,48,0.45)]",
+        "relative mx-auto w-full max-w-[330px] rounded-[2.6rem] border border-[#2c2f38] bg-[#15171c] p-2.5 shadow-[0_30px_60px_-20px_rgba(20,20,30,0.45)]",
         className,
       )}
     >
@@ -28,8 +28,8 @@ export function PhoneFrame({
         {/* WhatsApp header */}
         <div className="flex items-center gap-2 bg-[#008069] px-3 pb-2.5 pt-9 text-white dark:bg-[#202c33]">
           <ChevronLeft className="h-5 w-5 shrink-0 opacity-90" aria-hidden />
-          <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white">
-            <Image src="/brand/waloop-icon-sm.png" alt="" width={160} height={71} className="h-3.5 w-auto" />
+          <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white">
+            <Image src="/brand/okaychat-icon-sm.png" alt="" width={128} height={128} className="h-8 w-8" />
           </span>
           <div className="min-w-0 flex-1">
             <p className="flex items-center gap-1 text-sm font-semibold leading-tight">

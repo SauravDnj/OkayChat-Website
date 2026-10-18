@@ -23,7 +23,7 @@ export function PlatformShowcase() {
       <SectionHeading
         eyebrow="Platform capabilities"
         title="Every Capability, Explained in One Short Section"
-        description="Pick a capability to see what it is, what you can do with it, and how it looks inside WALOOP."
+        description="Pick a capability to see what it is, what you can do with it, and how it looks inside OkayChat."
       />
 
       <div role="tablist" aria-label="Platform capabilities" className="no-scrollbar mt-12 flex gap-2 overflow-x-auto pb-2 lg:justify-center">

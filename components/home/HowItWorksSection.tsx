@@ -3,14 +3,14 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { RevealGroup, RevealItem } from "@/components/ui/Reveal";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import { JourneyRail } from "@/components/diagrams/JourneyRail";
-import { howItWorks, whyWaloop } from "@/lib/content";
+import { howItWorks, whyOkayChat } from "@/lib/content";
 
-/** §39–40 How WALOOP works — horizontal timeline on desktop, vertical on mobile. */
+/** §39–40 How OkayChat works — horizontal timeline on desktop, vertical on mobile. */
 export function HowItWorksSection() {
   return (
     <Section tone="tint" id="how-it-works">
       <SectionHeading
-        eyebrow="How WALOOP works"
+        eyebrow="How OkayChat works"
         title="Eight Steps From Connection to Measurement"
         description="Connect, organize, build, engage, automate, convert, support and measure — all in one platform."
       />
@@ -19,13 +19,13 @@ export function HowItWorksSection() {
   );
 }
 
-/** §38 Why WALOOP. */
-export function WhyWaloopSection() {
+/** §38 Why OkayChat. */
+export function WhyOkayChatSection() {
   return (
-    <Section id="why-waloop">
-      <SectionHeading eyebrow="Why WALOOP" title={whyWaloop.heading} />
+    <Section id="why-okaychat">
+      <SectionHeading eyebrow="Why OkayChat" title={whyOkayChat.heading} />
       <RevealGroup className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {whyWaloop.items.map((item) => (
+        {whyOkayChat.items.map((item) => (
           <RevealItem key={item.title} className="soft-panel flex gap-4 p-6">
             <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-gradient text-white">
               <DynamicIcon name={item.icon} className="h-5 w-5" />

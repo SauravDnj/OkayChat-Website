@@ -50,7 +50,7 @@ function IconChip({ size, children }: { size: NonNullable<ButtonProps["size"]>; 
   return (
     <span
       className={cn(
-        "absolute top-1/2 -translate-y-1/2 flex items-center justify-center rounded-[8px] bg-[image:var(--gradient-icon-lime)] text-white shadow-[0_4px_10px_rgba(11,92,255,0.35)]",
+        "absolute top-1/2 -translate-y-1/2 flex items-center justify-center rounded-[8px] bg-[image:var(--gradient-icon-lime)] text-white shadow-[0_4px_10px_rgba(12,150,80,0.35)]",
         iconChipSize[size],
       )}
     >

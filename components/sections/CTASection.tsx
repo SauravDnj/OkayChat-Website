@@ -22,12 +22,12 @@ export function CTASection({ heading, description, primary = ctas.getStarted, se
           <div className="section-dark relative overflow-hidden rounded-[2rem] px-6 py-14 text-center sm:px-16 sm:py-20">
             <div aria-hidden className="pointer-events-none absolute inset-0 bg-hero-glow opacity-90" />
             <Image
-              src="/brand/waloop-icon.png"
+              src="/brand/okaychat-icon.png"
               alt=""
               width={512}
-              height={228}
+              height={512}
               aria-hidden
-              className="pointer-events-none absolute -right-16 -top-10 w-72 opacity-15 sm:w-96"
+              className="pointer-events-none absolute -right-12 -top-12 w-56 rotate-12 opacity-15 sm:w-72"
             />
             <div className="relative">
               <h2 className="mx-auto max-w-3xl text-balance font-heading text-3xl font-bold text-text sm:text-5xl">{heading}</h2>
@@ -43,7 +43,7 @@ export function CTASection({ heading, description, primary = ctas.getStarted, se
                 )}
               </div>
               <p className="mt-8 text-sm font-semibold">
-                <span className="text-brand-cyan">Built on Trust.</span> <span className="text-brand-green">Driven by AI.</span>
+                <span className="text-brand-cyan">Simple Business</span> <span className="text-brand-green">Conversations.</span>
               </p>
             </div>
           </div>

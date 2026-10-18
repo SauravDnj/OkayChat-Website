@@ -61,7 +61,7 @@ export function PricingSection({ eyebrow = "Pricing", heading, description, prev
         <p className="mt-8 flex items-start justify-center gap-2 text-center text-sm text-text-muted">
           <Info className="mt-0.5 h-4 w-4 shrink-0" />
           <span>
-            Prices are for the WALOOP platform subscription. Usage, provider, WhatsApp/Meta and payment gateway charges are billed
+            Prices are for the OkayChat platform subscription. Usage, provider, WhatsApp/Meta and payment gateway charges are billed
             separately where applicable.
             {preview && (
               <>

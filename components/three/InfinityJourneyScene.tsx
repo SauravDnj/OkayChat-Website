@@ -114,8 +114,8 @@ export default function InfinityJourneyScene({ paused = false }: { paused?: bool
     <Canvas style={{ overflow: "visible" }} frameloop={paused ? "never" : "always"} camera={{ position: [0, 0, 6], fov: 42 }} gl={{ antialias: true, alpha: true }} dpr={[1, 1.75]}>
       <ambientLight intensity={0.7} />
       <directionalLight position={[2, 4, 5]} intensity={2.2} />
-      <pointLight position={[-4, 1, 3]} intensity={30} color="#4d8dff" />
-      <pointLight position={[4, -1, 3]} intensity={30} color="#2ee57a" />
+      <pointLight position={[-4, 1, 3]} intensity={30} color="#16b055" />
+      <pointLight position={[4, -1, 3]} intensity={30} color="#86efac" />
       <Loop reduceMotion={reduceMotion} active={active} />
     </Canvas>
   );

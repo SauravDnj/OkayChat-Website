@@ -21,10 +21,10 @@ const urbanist = Urbanist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.waloop.in"),
-  title: "WALOOP | Customer Engagement, WhatsApp, CRM & AI Automation Platform",
+  metadataBase: new URL("https://www.okaychat.in"),
+  title: "OkayChat | Customer Engagement, WhatsApp, CRM & AI Automation Platform",
   description:
-    "WALOOP brings WhatsApp, multi-channel communication, CRM, chatbots, automation, payments, interactive experiences, dynamic content, and AI together in one customer engagement platform.",
+    "OkayChat brings WhatsApp, multi-channel communication, CRM, chatbots, automation, payments, interactive experiences, dynamic content, and AI together in one customer engagement platform.",
   keywords: [
     "WhatsApp business automation",
     "WhatsApp CRM",
@@ -37,14 +37,14 @@ export const metadata: Metadata = {
     "WhatsApp Mini-App",
     "AI customer engagement",
   ],
-  applicationName: "WALOOP",
+  applicationName: "OkayChat",
   openGraph: {
     type: "website",
-    siteName: "WALOOP",
-    title: "WALOOP — Built on Trust. Driven by AI.",
+    siteName: "OkayChat",
+    title: "OkayChat — Simple Business Conversations.",
     description:
-      "Connect. Automate. Engage. Grow. WALOOP brings customer conversations, CRM, chatbots, automation, interactive experiences, payments, dynamic content, analytics, and AI together in one connected platform.",
-    images: [{ url: "/brand/waloop-logo-light.png", width: 720, height: 447, alt: "WALOOP" }],
+      "Automate. Engage. Grow. OkayChat brings customer conversations, CRM, chatbots, automation, interactive experiences, payments, dynamic content, analytics, and AI together in one connected platform.",
+    images: [{ url: "/brand/okaychat-og.png", width: 1200, height: 630, alt: "OkayChat — Simple Business Conversations" }],
   },
 };
 

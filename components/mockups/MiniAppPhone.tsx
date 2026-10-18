@@ -133,8 +133,8 @@ export function MiniAppPhone({ className }: { className?: string }) {
                 <br />
                 Thanks Priya! Our team will contact you shortly.
               </Bubble>
-              <div className="mx-auto mt-2 flex items-center gap-2 rounded-xl border border-[#0b5cff]/30 bg-white px-3 py-2 text-[11px] font-semibold text-[#0b5cff] shadow-sm dark:bg-[#0b1429] dark:text-[#4fb8ff]">
-                <Database className="h-3.5 w-3.5" /> WALOOP CRM updated · Lead created
+              <div className="mx-auto mt-2 flex items-center gap-2 rounded-xl border border-[#0c9650]/30 bg-white px-3 py-2 text-[11px] font-semibold text-[#0c9650] shadow-sm dark:bg-[#131518] dark:text-[#4ade80]">
+                <Database className="h-3.5 w-3.5" /> OkayChat CRM updated · Lead created
               </div>
             </motion.div>
           )}

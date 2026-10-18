@@ -12,7 +12,7 @@ export function ConversationShowcase() {
       <SectionHeading
         eyebrow="See it on WhatsApp"
         title="A Real Conversation, Connected to Your Business"
-        description="A realistic WhatsApp journey: the customer asks, the WALOOP bot answers with choices, shares pricing and books a demo — while the platform captures the lead behind the scenes."
+        description="A realistic WhatsApp journey: the customer asks, the OkayChat bot answers with choices, shares pricing and books a demo — while the platform captures the lead behind the scenes."
       />
       <div className="mt-14 grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <Reveal direction="right">

@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const APP_URL = "https://app.waloop.in";
+const APP_URL = "https://app.okaychat.in";
 
 // Old product URLs map onto the new platform structure (spec §72, §79).
 const legacyProducts: Record<string, string> = {

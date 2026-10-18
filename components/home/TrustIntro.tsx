@@ -19,8 +19,8 @@ export function TrustIntro() {
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <MetaVerifiedBadge size="md" />
               <p className="max-w-[14rem] text-sm font-semibold leading-snug text-text">
-                <span className="text-brand-green-deep">Built on Trust.</span>{" "}
-                <span className="text-brand-green">Driven by AI.</span>
+                <span className="text-brand-green-deep">Simple Business</span>{" "}
+                <span className="text-brand-green">Conversations.</span>
               </p>
             </div>
           </Reveal>

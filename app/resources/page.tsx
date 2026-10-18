@@ -10,8 +10,8 @@ import { resourceHub } from "@/lib/resources";
 import { ctaLibrary } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP Resources | Documentation, Guides, Use Cases, FAQ & Support",
-  description: "Learn how WALOOP works — documentation, guides, complete use-case journeys, FAQ, blog and support.",
+  title: "OkayChat Resources | Documentation, Guides, Use Cases, FAQ & Support",
+  description: "Learn how OkayChat works — documentation, guides, complete use-case journeys, FAQ, blog and support.",
 };
 
 export default function ResourcesPage() {
@@ -20,8 +20,8 @@ export default function ResourcesPage() {
       <PageHero
         eyebrow="Resources"
         icon="Library"
-        title="Learn How WALOOP Connects the Customer Journey"
-        description="Documentation, guides, use cases and answers — everything you need to plan and build with WALOOP."
+        title="Learn How OkayChat Connects the Customer Journey"
+        description="Documentation, guides, use cases and answers — everything you need to plan and build with OkayChat."
         secondary={null}
       />
       <Section>

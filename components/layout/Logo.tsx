@@ -2,50 +2,61 @@ import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-/** WALOOP wordmark: "WA" in brand green, "LOOP" in brand blue — mirrors the Infinity Connect lockup. */
+/** OkayChat wordmark: "Okay" in ink, "Chat" in brand green — text fallback for the logo artwork. */
 export function Wordmark({ className }: { className?: string }) {
   return (
     <span className={cn("font-heading text-xl font-bold tracking-tight", className)}>
-      <span className="bg-gradient-to-br from-[#6fe23a] to-[#0fa956] bg-clip-text text-transparent">WA</span>
-      <span className="bg-gradient-to-br from-[#0b7bff] to-[#0a2c7a] bg-clip-text text-transparent dark:from-[#4fb8ff] dark:to-[#4d8dff]">
-        LOOP
-      </span>
+      <span className="text-text">Okay</span>
+      <span className="text-brand-green">Chat</span>
     </span>
   );
 }
 
+/** Header logo — OkayChat.in wordmark with the smile, swapped for the dark-mode artwork. */
 export function Logo({ className, iconClassName }: { className?: string; iconClassName?: string }) {
   return (
-    <Link href="/" aria-label="WALOOP home" className={cn("group flex shrink-0 items-center gap-2.5", className)}>
-      <Image
-        src="/brand/waloop-icon-sm.png"
-        alt=""
-        width={160}
-        height={71}
-        priority
-        className={cn("h-7 w-auto shrink-0 transition-transform duration-300 group-hover:scale-105", iconClassName)}
-      />
-      <Wordmark />
+    <Link href="/" aria-label="OkayChat home" className={cn("group flex shrink-0 items-center", className)}>
+      <span className={cn("relative inline-block h-9 transition-transform duration-300 group-hover:scale-[1.03]", iconClassName)}>
+        <Image
+          src="/brand/okaychat-wordmark-light.png"
+          alt="OkayChat"
+          width={800}
+          height={172}
+          priority
+          className="h-full w-auto dark:hidden"
+        />
+        <Image
+          src="/brand/okaychat-wordmark-dark.png"
+          alt="OkayChat"
+          width={800}
+          height={172}
+          priority
+          className="hidden h-full w-auto dark:block"
+        />
+      </span>
     </Link>
   );
 }
 
-/** Full WALOOP lockup (Infinity icon above the wordmark), swapped for the dark-mode artwork. */
-export function BrandLockup({ className }: { className?: string }) {
+/** Full OkayChat lockup (wordmark, smile and optional tagline), swapped for the dark-mode artwork. */
+export function BrandLockup({ className, tagline = true }: { className?: string; tagline?: boolean }) {
+  const art = tagline
+    ? { name: "logo", width: 1200, height: 257, alt: "OkayChat — Simple Business Conversations" }
+    : { name: "wordmark", width: 800, height: 172, alt: "OkayChat" };
   return (
     <span className={cn("relative inline-block", className)}>
       <Image
-        src="/brand/waloop-logo-light.png"
-        alt="WALOOP"
-        width={720}
-        height={447}
+        src={`/brand/okaychat-${art.name}-light.png`}
+        alt={art.alt}
+        width={art.width}
+        height={art.height}
         className="h-full w-auto dark:hidden"
       />
       <Image
-        src="/brand/waloop-logo-dark.png"
-        alt="WALOOP"
-        width={720}
-        height={447}
+        src={`/brand/okaychat-${art.name}-dark.png`}
+        alt={art.alt}
+        width={art.width}
+        height={art.height}
         className="hidden h-full w-auto dark:block"
       />
     </span>

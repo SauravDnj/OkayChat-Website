@@ -12,7 +12,7 @@ import type { Flow } from "@/lib/flows";
 import { ctas } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP Integrations | Connect WALOOP With Your Business Stack",
+  title: "OkayChat Integrations | Connect OkayChat With Your Business Stack",
   description:
     "Connect customer engagement with your business systems — CRM systems, business applications, payment services, marketing and data systems, custom APIs, webhooks and automation services.",
 };
@@ -24,15 +24,15 @@ const categories = [
   { icon: "AppWindow", title: "Business applications", description: "Connect the applications your teams already use." },
   { icon: "CreditCard", title: "Payment services", description: "Supported payment gateway connections." },
   { icon: "Megaphone", title: "Marketing systems", description: "Connect campaigns and audience data." },
-  { icon: "Database", title: "Data systems", description: "Move structured data in and out of WALOOP." },
+  { icon: "Database", title: "Data systems", description: "Move structured data in and out of OkayChat." },
   { icon: "Code2", title: "Custom APIs", description: "Connect custom systems where supported." },
   { icon: "Webhook", title: "Webhooks", description: "Send and receive events to keep systems in sync." },
-  { icon: "Workflow", title: "Automation services", description: "Use App Authentications inside WALOOP workflows." },
+  { icon: "Workflow", title: "Automation services", description: "Use App Authentications inside OkayChat workflows." },
 ];
 
 const integrationFlow: Flow = {
   title: "Integration visual",
-  caption: "CRM, payments, business apps, APIs, webhooks and data systems connect to WALOOP, which runs the customer journey.",
+  caption: "CRM, payments, business apps, APIs, webhooks and data systems connect to OkayChat, which runs the customer journey.",
   steps: [
     { branches: [
       { label: "CRM", steps: [] },
@@ -40,7 +40,7 @@ const integrationFlow: Flow = {
       { label: "Business Apps", steps: [] },
       { label: "APIs", steps: [] },
     ] },
-    "WALOOP",
+    "OkayChat",
     "Customer Journey",
   ],
 };
@@ -58,8 +58,8 @@ export default function IntegrationsPage() {
       <PageHero
         eyebrow="Integrations"
         icon="Plug"
-        title="Connect WALOOP With Your Business Stack"
-        description="WALOOP connects customer engagement with relevant business systems and supported external services — so conversations, data and actions stay in sync."
+        title="Connect OkayChat With Your Business Stack"
+        description="OkayChat connects customer engagement with relevant business systems and supported external services — so conversations, data and actions stay in sync."
         visual={
           <Ecosystem3D
             nodes={["CRM", "Payments", "Business Apps", "APIs", "Webhooks", "Data Systems", "Marketing", "Automation"]}
@@ -70,7 +70,7 @@ export default function IntegrationsPage() {
       />
 
       <Section>
-        <SectionHeading eyebrow="Integration categories" title="What WALOOP Can Connect With" />
+        <SectionHeading eyebrow="Integration categories" title="What OkayChat Can Connect With" />
         <RevealGroup className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {categories.map((c) => (
             <RevealItem key={c.title} className="soft-panel flex gap-4 p-6">
@@ -89,7 +89,7 @@ export default function IntegrationsPage() {
       <Section tone="tint">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           <div>
-            <SectionHeading eyebrow="Inside WALOOP" title="How connections work in the platform" align="left" />
+            <SectionHeading eyebrow="Inside OkayChat" title="How connections work in the platform" align="left" />
             <ul className="mt-10 space-y-3">
               {howItConnects.map((h) => (
                 <li key={h.title} className="flex gap-4 rounded-2xl border border-border bg-surface p-4">
@@ -110,14 +110,14 @@ export default function IntegrationsPage() {
         </div>
         <p className="mx-auto mt-12 flex max-w-3xl items-start gap-2 rounded-xl border border-border bg-surface px-4 py-3 text-sm text-text-muted">
           <Info className="mt-0.5 h-4 w-4 shrink-0 text-brand-green-deep" />
-          Available integrations depend on your configuration. Talk to the WALOOP team to confirm a specific application, API or
+          Available integrations depend on your configuration. Talk to the OkayChat team to confirm a specific application, API or
           payment service for your use case.
         </p>
       </Section>
 
       <CTASection
         heading="Have a System You Need to Connect?"
-        description="Tell us about your stack and we'll confirm what WALOOP can connect with for your journey."
+        description="Tell us about your stack and we'll confirm what OkayChat can connect with for your journey."
         primary={ctas.talkToSales}
       />
     </>

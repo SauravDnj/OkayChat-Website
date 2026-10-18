@@ -9,7 +9,7 @@ import { problem } from "@/lib/content";
 
 const connected = ["Channels", "CRM", "Chatbot", "Automation", "AI", "Mini-Apps / Payments", "Analytics"];
 
-/** §6 Problem — fragmented tools on the left, WALOOP on the right. */
+/** §6 Problem — fragmented tools on the left, OkayChat on the right. */
 export function ProblemSection() {
   return (
     <Section tone="tint">
@@ -44,11 +44,11 @@ export function ProblemSection() {
           </span>
         </div>
 
-        {/* After: WALOOP */}
+        {/* After: OkayChat */}
         <div className="border-brand-gradient rounded-[var(--radius-panel)] p-6 shadow-glow">
           <div className="flex flex-col items-center">
-            <Image src="/brand/waloop-icon.png" alt="" width={512} height={228} className="w-24" />
-            <p className="mt-1 font-heading text-lg font-bold text-text">WALOOP</p>
+            <Image src="/brand/okaychat-icon.png" alt="" width={512} height={512} className="w-16" />
+            <p className="mt-1 font-heading text-lg font-bold text-text">OkayChat</p>
             <div aria-hidden className="mt-3 h-4 w-px bg-brand-blue/40" />
             <div className="flex flex-wrap justify-center gap-2">
               {connected.map((c, i) => (

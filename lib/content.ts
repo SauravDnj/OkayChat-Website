@@ -1,5 +1,5 @@
-// Central content store for the WALOOP marketing site.
-// Source: WALOOP_Website_Content_Context_Specification_DETAILED.md
+// Central content store for the OkayChat marketing site.
+// Source: OkayChat_Website_Content_Context_Specification_DETAILED.md
 // Keeping copy here (rather than scattered in components) makes it easy to edit later.
 
 import { platformAreas, platformHref } from "@/lib/platform";
@@ -9,18 +9,18 @@ import { industries } from "@/lib/industries";
 // ───────────────────────────── Brand foundation (§1, §60)
 
 export const siteConfig = {
-  name: "WALOOP",
-  tagline: "Built on Trust. Driven by AI.",
-  coreMessage: "Connect. Automate. Engage. Grow.",
+  name: "OkayChat",
+  tagline: "Simple Business Conversations.",
+  coreMessage: "Automate. Engage. Grow.",
   alternativeHeadline: "Turn Every Customer Conversation Into a Connected Business Journey.",
   description:
-    "WALOOP helps businesses communicate with customers, organize customer data, automate repetitive processes, create interactive experiences, and build AI-powered customer journeys from one platform.",
+    "OkayChat helps businesses communicate with customers, organize customer data, automate repetitive processes, create interactive experiences, and build AI-powered customer journeys from one platform.",
   supportingStatement:
-    "WALOOP brings conversations, CRM, chatbots, automation, WhatsApp experiences, payments, dynamic experiences, and AI together so businesses can build connected customer journeys from one platform.",
-  website: "https://www.waloop.in",
-  websiteLabel: "www.waloop.in",
-  appUrl: "https://app.waloop.in",
-  appLabel: "app.waloop.in",
+    "OkayChat brings conversations, CRM, chatbots, automation, WhatsApp experiences, payments, dynamic experiences, and AI together so businesses can build connected customer journeys from one platform.",
+  website: "https://www.okaychat.in",
+  websiteLabel: "www.okaychat.in",
+  appUrl: "https://app.okaychat.in",
+  appLabel: "app.okaychat.in",
   email: "official.waloop@gmail.com",
   phone: "+91 87584 08987",
   phoneLink: "tel:+918758408987",
@@ -37,7 +37,7 @@ export const ctas = {
   getStarted: { label: "Get Started", href: siteConfig.appUrl },
   bookDemo: { label: "Book a Demo", href: "/demo" },
   talkToSales: { label: "Talk to Sales", href: "/contact" },
-  talkToWaloop: { label: "Talk to WALOOP", href: "/contact" },
+  talkToOkayChat: { label: "Talk to OkayChat", href: "/contact" },
 };
 
 /** §1 Brand promise. */
@@ -88,7 +88,7 @@ export const mainNav: NavEntry[] = [
     highlight: {
       badge: "Platform overview",
       title: "One connected platform",
-      description: "See how every WALOOP capability connects across the customer journey.",
+      description: "See how every OkayChat capability connects across the customer journey.",
       cta: "Explore the platform",
       href: "/platform",
     },
@@ -138,7 +138,7 @@ export const mainNav: NavEntry[] = [
       {
         heading: "Learn",
         links: [
-          { label: "Documentation", href: "/docs", description: "How each WALOOP capability works.", icon: "BookOpen" },
+          { label: "Documentation", href: "/docs", description: "How each OkayChat capability works.", icon: "BookOpen" },
           { label: "Guides", href: "/guides", description: "Step-by-step guides to build journeys.", icon: "Compass" },
           { label: "Use Cases", href: "/use-cases", description: "Complete customer journeys, diagrammed.", icon: "Route" },
         ],
@@ -146,9 +146,9 @@ export const mainNav: NavEntry[] = [
       {
         heading: "Help",
         links: [
-          { label: "FAQ", href: "/faq", description: "Answers about WALOOP, plans and features.", icon: "CircleHelp" },
+          { label: "FAQ", href: "/faq", description: "Answers about OkayChat, plans and features.", icon: "CircleHelp" },
           { label: "Blog", href: "/blog", description: "Insights and product updates.", icon: "Newspaper" },
-          { label: "Support", href: "/support", description: "Get help from the WALOOP team.", icon: "LifeBuoy" },
+          { label: "Support", href: "/support", description: "Get help from the OkayChat team.", icon: "LifeBuoy" },
         ],
       },
     ],
@@ -160,8 +160,8 @@ export const mainNav: NavEntry[] = [
       {
         heading: "Company",
         links: [
-          { label: "About WALOOP", href: "/about", description: "Built to connect the modern customer journey.", icon: "Building2" },
-          { label: "Contact", href: "/contact", description: "Talk to the WALOOP team.", icon: "Mail" },
+          { label: "About OkayChat", href: "/about", description: "Built to connect the modern customer journey.", icon: "Building2" },
+          { label: "Contact", href: "/contact", description: "Talk to the OkayChat team.", icon: "Mail" },
           { label: "Pricing", href: "/pricing", description: "Starter, Growth and Enterprise plans.", icon: "Tag" },
         ],
       },
@@ -180,8 +180,8 @@ export const mainNav: NavEntry[] = [
 
 export const footer = {
   description:
-    "WALOOP helps businesses connect with customers, manage conversations, automate workflows, create interactive experiences, and build AI-powered customer journeys.",
-  cta: "Build Smarter Customer Journeys With WALOOP",
+    "OkayChat helps businesses connect with customers, manage conversations, automate workflows, create interactive experiences, and build AI-powered customer journeys.",
+  cta: "Build Smarter Customer Journeys With OkayChat",
   columns: [
     { title: "Platform", links: platformAreas.map((a) => ({ label: a.name, href: platformHref(a.slug) })) },
     { title: "Solutions", links: solutions.map((s) => ({ label: s.name, href: `/solutions/${s.slug}` })) },
@@ -216,7 +216,7 @@ export const footer = {
 export const hero = {
   headline: "The Intelligent Platform for Customer Conversations, Automation & Growth",
   copy: [
-    "WALOOP brings WhatsApp, social channels, CRM, chatbots, automation, interactive experiences, payments, analytics, and AI together in one connected platform.",
+    "OkayChat brings WhatsApp, social channels, CRM, chatbots, automation, interactive experiences, payments, analytics, and AI together in one connected platform.",
     "Build customer journeys that start with a message, continue through intelligent conversations and automated workflows, and lead to meaningful business actions.",
   ],
   featureStrip: [
@@ -237,7 +237,7 @@ export const problem = {
   copy: [
     "Businesses often manage communication, customer data, campaigns, automation, support, payments, and reporting across different tools.",
     "That can make it harder to maintain context between a customer's conversation and the actions that follow.",
-    "WALOOP brings these capabilities together so teams can create connected customer journeys.",
+    "OkayChat brings these capabilities together so teams can create connected customer journeys.",
   ],
   silos: ["Messaging Tool", "CRM", "Automation Tool", "Payment Tool", "Support Tool", "Analytics"],
 };
@@ -245,11 +245,11 @@ export const problem = {
 export const platformOverview = {
   heading: "Everything Your Customer Journey Needs. In One Platform.",
   intro:
-    "From the first customer message to lead management, sales conversations, support, payment, follow-up, and analytics, WALOOP provides connected capabilities for the customer journey.",
+    "From the first customer message to lead management, sales conversations, support, payment, follow-up, and analytics, OkayChat provides connected capabilities for the customer journey.",
 };
 
-/** §38 Why WALOOP. */
-export const whyWaloop = {
+/** §38 Why OkayChat. */
+export const whyOkayChat = {
   heading: "One Connected Platform for Modern Customer Engagement",
   items: [
     { icon: "Layers", title: "One Platform", description: "Bring communication, CRM, automation, and customer experiences into one environment." },
@@ -264,7 +264,7 @@ export const whyWaloop = {
   ],
 };
 
-/** §39–40 How WALOOP works. */
+/** §39–40 How OkayChat works. */
 export const howItWorks = [
   { step: "01", title: "Connect", description: "Connect supported channels and services." },
   { step: "02", title: "Organize", description: "Manage contacts, customer information, teams, and departments." },
@@ -280,7 +280,7 @@ export const howItWorks = [
 export const trust = {
   heading: "Built for Connected Customer Operations",
   description:
-    "WALOOP is Meta Verified and gives teams the capabilities they need to run customer operations from one place.",
+    "OkayChat is Meta Verified and gives teams the capabilities they need to run customer operations from one place.",
   capabilities: [
     { icon: "Inbox", title: "Centralized conversations" },
     { icon: "Database", title: "Structured customer data" },
@@ -297,64 +297,64 @@ export type Faq = { question: string; answer: string };
 
 export const faqs: Faq[] = [
   {
-    question: "What is WALOOP?",
+    question: "What is OkayChat?",
     answer:
-      "WALOOP is a customer engagement and business automation platform that connects supported communication channels, CRM, chatbots, automation, interactive experiences, payments, dynamic content, analytics, and AI capabilities.",
+      "OkayChat is a customer engagement and business automation platform that connects supported communication channels, CRM, chatbots, automation, interactive experiences, payments, dynamic content, analytics, and AI capabilities.",
   },
   {
-    question: "Is WALOOP only for WhatsApp?",
+    question: "Is OkayChat only for WhatsApp?",
     answer:
-      "No. WhatsApp is an important supported channel, but WALOOP is a broader customer engagement platform with additional supported channels and business capabilities.",
+      "No. WhatsApp is an important supported channel, but OkayChat is a broader customer engagement platform with additional supported channels and business capabilities.",
   },
   {
     question: "Which channels are supported?",
     answer:
-      "WALOOP identifies WhatsApp, Instagram, Facebook, and RCS as supported channel categories. The exact capabilities available for each channel depend on the active product configuration.",
+      "OkayChat identifies WhatsApp, Instagram, Facebook, and RCS as supported channel categories. The exact capabilities available for each channel depend on the active product configuration.",
   },
-  { question: "Can I build chatbots?", answer: "Yes. WALOOP includes a visual chatbot/flow builder for creating supported conversation journeys." },
+  { question: "Can I build chatbots?", answer: "Yes. OkayChat includes a visual chatbot/flow builder for creating supported conversation journeys." },
   {
     question: "Do I need to code to create a chatbot?",
     answer: "The visual builder is designed to let business teams create structured conversation flows without manually coding every interaction.",
   },
   {
     question: "Can I automate business processes?",
-    answer: "Yes. WALOOP includes a visual automation/workflow builder for supported triggers, conditions, actions, data, and integrations.",
+    answer: "Yes. OkayChat includes a visual automation/workflow builder for supported triggers, conditions, actions, data, and integrations.",
   },
   {
-    question: "Can I use WALOOP as a CRM?",
+    question: "Can I use OkayChat as a CRM?",
     answer:
-      "WALOOP includes CRM capabilities such as contacts, conversations, boards, data stores, segments, campaigns, canned replies, triggers, imports, and exports.",
+      "OkayChat includes CRM capabilities such as contacts, conversations, boards, data stores, segments, campaigns, canned replies, triggers, imports, and exports.",
   },
   {
-    question: "Can WALOOP collect customer information?",
+    question: "Can OkayChat collect customer information?",
     answer: "Supported chatbot, CRM, Mini-App, and workflow features can be used to capture structured information.",
   },
   {
     question: "Can I create WhatsApp interactive experiences?",
-    answer: "WALOOP includes WhatsApp Mini-App / Flow capabilities for supported interactive journeys.",
+    answer: "OkayChat includes WhatsApp Mini-App / Flow capabilities for supported interactive journeys.",
   },
   {
     question: "Can I connect payments?",
-    answer: "WALOOP includes payment orders, payment gateways, and payment automation capabilities for supported configurations.",
+    answer: "OkayChat includes payment orders, payment gateways, and payment automation capabilities for supported configurations.",
   },
-  { question: "Can I create personalized PDFs or images?", answer: "WALOOP includes Dynamic Experience capabilities for image and PDF experiences." },
+  { question: "Can I create personalized PDFs or images?", answer: "OkayChat includes Dynamic Experience capabilities for image and PDF experiences." },
   {
     question: "Can AI use my business information?",
     answer:
       "The AI Dashboard is designed around training AI on relevant business content. The exact supported content sources and processing behaviour are documented according to the current implementation.",
   },
-  { question: "Can teams work together?", answer: "WALOOP includes team management, roles, permissions, and department-oriented capabilities." },
+  { question: "Can teams work together?", answer: "OkayChat includes team management, roles, permissions, and department-oriented capabilities." },
   {
     question: "Can I manage customer support?",
     answer:
-      "Yes. WALOOP provides live conversations, canned replies, department organization, CRM information, chatbots, and automation capabilities that can support customer service workflows.",
+      "Yes. OkayChat provides live conversations, canned replies, department organization, CRM information, chatbots, and automation capabilities that can support customer service workflows.",
   },
-  { question: "Does WALOOP have analytics?", answer: "WALOOP includes analytics areas for supported chatbot, automation, and broader platform activity." },
+  { question: "Does OkayChat have analytics?", answer: "OkayChat includes analytics areas for supported chatbot, automation, and broader platform activity." },
   { question: "What are the current plans?", answer: "Starter is ₹15,000/year, Growth is ₹30,000/year, and Enterprise is custom pricing." },
   {
     question: "Are third-party charges included?",
     answer:
-      "No. Applicable provider, usage, payment gateway, and WhatsApp/Meta charges are separate from the WALOOP subscription.",
+      "No. Applicable provider, usage, payment gateway, and WhatsApp/Meta charges are separate from the OkayChat subscription.",
   },
 ];
 
@@ -366,22 +366,22 @@ export const homeFaqs: Faq[] = [faqs[0], faqs[1], faqs[2], faqs[4], faqs[6], faq
 export const ctaLibrary = {
   journeys: {
     heading: "Ready to Build Better Customer Journeys?",
-    description: "Bring conversations, CRM, automation, payments, and AI together with WALOOP.",
+    description: "Bring conversations, CRM, automation, payments, and AI together with OkayChat.",
     cta: ctas.getStarted,
   },
   automate: {
     heading: "Automate the Work. Personalize the Experience.",
-    description: "Build connected customer workflows with WALOOP.",
+    description: "Build connected customer workflows with OkayChat.",
     cta: ctas.bookDemo,
   },
   messaging: {
     heading: "Your Customers Are Already Messaging. Make Every Conversation Count.",
     description: "Connect supported channels and create structured customer experiences.",
-    cta: { label: "Start With WALOOP", href: siteConfig.appUrl },
+    cta: { label: "Start With OkayChat", href: siteConfig.appUrl },
   },
   next: {
-    heading: "Build Your Next Customer Journey With WALOOP",
-    description: "Connect. Automate. Engage.",
+    heading: "Build Your Next Customer Journey With OkayChat",
+    description: "Automate. Engage. Grow.",
     cta: ctas.getStarted,
   },
 };

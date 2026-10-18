@@ -5,9 +5,9 @@ import { CTASection } from "@/components/sections/CTASection";
 import { ctas, faqs } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP FAQ | Channels, Chatbots, CRM, Automation, Payments, AI & Pricing",
+  title: "OkayChat FAQ | Channels, Chatbots, CRM, Automation, Payments, AI & Pricing",
   description:
-    "Answers to common questions about WALOOP — supported channels, chatbots, CRM, automation, WhatsApp Mini-Apps, payments, dynamic experiences, AI, teams, analytics, plans and charges.",
+    "Answers to common questions about OkayChat — supported channels, chatbots, CRM, automation, WhatsApp Mini-Apps, payments, dynamic experiences, AI, teams, analytics, plans and charges.",
 };
 
 export default function FaqPage() {
@@ -17,12 +17,12 @@ export default function FaqPage() {
         eyebrow="FAQ"
         icon="CircleHelp"
         title="Frequently Asked Questions"
-        description="Everything you need to know about WALOOP, its capabilities, plans and charges."
-        primary={ctas.talkToWaloop}
+        description="Everything you need to know about OkayChat, its capabilities, plans and charges."
+        primary={ctas.talkToOkayChat}
         secondary={ctas.bookDemo}
       />
-      <FAQ items={faqs} heading="All questions" description={`${faqs.length} answers about the WALOOP platform.`} showMore={false} />
-      <CTASection heading="Still Have a Question?" description="Talk to the WALOOP team on WhatsApp, phone or email." primary={ctas.talkToWaloop} />
+      <FAQ items={faqs} heading="All questions" description={`${faqs.length} answers about the OkayChat platform.`} showMore={false} />
+      <CTASection heading="Still Have a Question?" description="Talk to the OkayChat team on WhatsApp, phone or email." primary={ctas.talkToOkayChat} />
     </>
   );
 }

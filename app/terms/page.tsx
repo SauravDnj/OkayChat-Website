@@ -3,8 +3,8 @@ import { LegalLayout } from "@/components/legal/LegalLayout";
 import { termsOfService } from "@/lib/legal/terms";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | WALOOP",
-  description: "The terms governing your use of the WALOOP platform.",
+  title: "Terms of Service | OkayChat",
+  description: "The terms governing your use of the OkayChat platform.",
 };
 
 export default function TermsPage() {

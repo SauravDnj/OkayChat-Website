@@ -10,9 +10,9 @@ import { demoFlow } from "@/lib/journeys";
 import { siteConfig } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Book a WALOOP Demo | See One Connected Customer Journey",
+  title: "Book a OkayChat Demo | See One Connected Customer Journey",
   description:
-    "Book a WALOOP demo and follow one continuous customer journey — WhatsApp message, chatbot, CRM, segmentation, automation, department routing, payment, follow-up and analytics.",
+    "Book a OkayChat demo and follow one continuous customer journey — WhatsApp message, chatbot, CRM, segmentation, automation, department routing, payment, follow-up and analytics.",
 };
 
 // §69 — the demo follows a single customer journey rather than opening random features.
@@ -25,7 +25,7 @@ export default function DemoPage() {
         eyebrow="Book a Demo"
         icon="CalendarCheck"
         title="See One Connected Customer Journey"
-        description="Our demo follows a single customer from their first WhatsApp message to analytics — so you see how every WALOOP capability connects."
+        description="Our demo follows a single customer from their first WhatsApp message to analytics — so you see how every OkayChat capability connects."
         primary={{ label: "Request a Demo", href: "#demo-form" }}
         secondary={{ label: "Chat on WhatsApp", href: siteConfig.whatsappLink }}
         visual={<WhatsAppConversation />}

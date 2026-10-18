@@ -9,7 +9,7 @@ import { comingSoon, hero, topics } from "@/lib/products/blog";
 import { ctas } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP Blog | Customer Engagement, WhatsApp Automation & AI",
+  title: "OkayChat Blog | Customer Engagement, WhatsApp Automation & AI",
   description: hero.description,
 };
 
@@ -43,7 +43,7 @@ export default function BlogPage() {
         </div>
       </Section>
 
-      <CTASection heading="Stay in the Loop" description="Follow WALOOP's updates and explore the platform while our first articles come together." primary={ctas.getStarted} />
+      <CTASection heading="Stay in the Loop" description="Follow OkayChat's updates and explore the platform while our first articles come together." primary={ctas.getStarted} />
     </>
   );
 }

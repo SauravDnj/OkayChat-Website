@@ -101,10 +101,10 @@ export const guides: Guide[] = [
 ];
 
 export const resourceHub = [
-  { title: "Documentation", href: "/docs", icon: "BookOpen", description: "How each WALOOP capability works, area by area." },
+  { title: "Documentation", href: "/docs", icon: "BookOpen", description: "How each OkayChat capability works, area by area." },
   { title: "Guides", href: "/guides", icon: "Compass", description: "Step-by-step walkthroughs for common journeys." },
   { title: "Use Cases", href: "/use-cases", icon: "Route", description: "Complete customer journeys, diagrammed." },
-  { title: "FAQ", href: "/faq", icon: "CircleHelp", description: "Answers about WALOOP, plans and features." },
+  { title: "FAQ", href: "/faq", icon: "CircleHelp", description: "Answers about OkayChat, plans and features." },
   { title: "Blog", href: "/blog", icon: "Newspaper", description: "Insights and product updates." },
-  { title: "Support", href: "/support", icon: "LifeBuoy", description: "Get help from the WALOOP team." },
+  { title: "Support", href: "/support", icon: "LifeBuoy", description: "Get help from the OkayChat team." },
 ];

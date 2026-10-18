@@ -4,9 +4,9 @@
 
 export const hero = {
   badge: "Blog",
-  title: "WALOOP Blog",
+  title: "OkayChat Blog",
   description:
-    "Ideas and product updates on customer engagement, WhatsApp automation, conversational CRM and AI — from the team building WALOOP.",
+    "Ideas and product updates on customer engagement, WhatsApp automation, conversational CRM and AI — from the team building OkayChat.",
 };
 
 export const comingSoon = {

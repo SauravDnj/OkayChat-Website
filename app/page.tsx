@@ -8,7 +8,7 @@ import { ConversationShowcase } from "@/components/home/ConversationShowcase";
 import { UseCasesSection } from "@/components/home/UseCasesSection";
 import { IndustriesSection } from "@/components/home/IndustriesSection";
 import { AnalyticsSection } from "@/components/home/AnalyticsSection";
-import { HowItWorksSection, WhyWaloopSection } from "@/components/home/HowItWorksSection";
+import { HowItWorksSection, WhyOkayChatSection } from "@/components/home/HowItWorksSection";
 import { PricingSection } from "@/components/pricing/PricingSection";
 import { FAQ } from "@/components/home/FAQ";
 import { CTASection } from "@/components/sections/CTASection";
@@ -30,9 +30,9 @@ export default function Home() {
       <IndustriesSection />
       <AnalyticsSection />
       <HowItWorksSection />
-      <WhyWaloopSection />
+      <WhyOkayChatSection />
       <PricingSection
-        heading="Choose the WALOOP Plan That Fits Your Business"
+        heading="Choose the OkayChat Plan That Fits Your Business"
         description="Simple yearly plans — Starter, Growth and Enterprise."
         preview
         tinted

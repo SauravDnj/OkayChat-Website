@@ -10,9 +10,9 @@ import { platformAreas, platformHref } from "@/lib/platform";
 import { ctas } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP Documentation | How Each Platform Capability Works",
+  title: "OkayChat Documentation | How Each Platform Capability Works",
   description:
-    "Documentation overview for WALOOP — channels, CRM, chatbots, automations, WhatsApp Mini-Apps, payments, dynamic experiences, AI, analytics and workspace.",
+    "Documentation overview for OkayChat — channels, CRM, chatbots, automations, WhatsApp Mini-Apps, payments, dynamic experiences, AI, analytics and workspace.",
 };
 
 export default function DocsPage() {
@@ -21,7 +21,7 @@ export default function DocsPage() {
       <PageHero
         eyebrow="Documentation"
         icon="BookOpen"
-        title="How Each WALOOP Capability Works"
+        title="How Each OkayChat Capability Works"
         description="A plain-language reference for every platform area: what it is, what it includes and how it connects. Exact capabilities can depend on your plan and configuration."
         primary={{ label: "Browse Guides", href: "/guides" }}
         secondary={{ label: "Get Support", href: "/support" }}
@@ -74,7 +74,7 @@ export default function DocsPage() {
         </div>
       </Section>
 
-      <CTASection heading="Need Help in Your Workspace?" description="Raise a support ticket in WALOOP or talk to the team on WhatsApp." primary={ctas.talkToWaloop} />
+      <CTASection heading="Need Help in Your Workspace?" description="Raise a support ticket in OkayChat or talk to the team on WhatsApp." primary={ctas.talkToOkayChat} />
     </>
   );
 }

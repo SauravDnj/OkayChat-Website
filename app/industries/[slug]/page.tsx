@@ -52,7 +52,7 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
       />
 
       <Section>
-        <SectionHeading eyebrow="Use cases" title={`What ${industry.name} teams use WALOOP for`} />
+        <SectionHeading eyebrow="Use cases" title={`What ${industry.name} teams use OkayChat for`} />
         <RevealGroup className="mt-12 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {industry.useCases.map((u) => (
             <RevealItem key={u} className="flex items-center gap-3 rounded-2xl border border-border bg-surface p-5">
@@ -82,7 +82,7 @@ export default async function IndustryPage({ params }: PageProps<"/industries/[s
       </Section>
 
       <Section>
-        <SectionHeading eyebrow="Capabilities used" title="The WALOOP capabilities behind it" />
+        <SectionHeading eyebrow="Capabilities used" title="The OkayChat capabilities behind it" />
         <PlatformCards slugs={industry.uses} numbered={false} className="mt-14" />
       </Section>
 

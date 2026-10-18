@@ -134,7 +134,7 @@ export function PlatformPageView({ area }: { area: PlatformArea }) {
             ))}
           </RevealItem>
           <RevealItem className="border-brand-gradient rounded-[var(--radius-panel)] p-7 shadow-glow">
-            <p className="font-heading text-xs font-bold uppercase tracking-widest text-brand-green">How WALOOP solves it</p>
+            <p className="font-heading text-xs font-bold uppercase tracking-widest text-brand-green">How OkayChat solves it</p>
             <h2 className="mt-4 font-heading text-xl font-bold text-text">{area.solution.heading}</h2>
             {area.solution.body.map((p) => (
               <p key={p} className="mt-3 text-sm leading-relaxed text-text-muted">
@@ -208,7 +208,7 @@ export function PlatformPageView({ area }: { area: PlatformArea }) {
           <div>
             <SectionHeading
               eyebrow="Connected with"
-              title={`How ${area.name} connects to the rest of WALOOP`}
+              title={`How ${area.name} connects to the rest of OkayChat`}
               description="Every capability is part of one customer journey."
               align="left"
             />

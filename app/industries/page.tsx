@@ -12,9 +12,9 @@ import { industries } from "@/lib/industries";
 import { ctaLibrary } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP Industries | Retail, Education, Healthcare, Real Estate, Finance, Travel & Automotive",
+  title: "OkayChat Industries | Retail, Education, Healthcare, Real Estate, Finance, Travel & Automotive",
   description:
-    "WALOOP is built for businesses that communicate with customers — retail & e-commerce, education, healthcare, real estate, financial services, travel & hospitality and automotive.",
+    "OkayChat is built for businesses that communicate with customers — retail & e-commerce, education, healthcare, real estate, financial services, travel & hospitality and automotive.",
 };
 
 export default function IndustriesPage() {
@@ -24,7 +24,7 @@ export default function IndustriesPage() {
         eyebrow="Industries"
         icon="Building2"
         title="Built for Businesses That Communicate With Customers"
-        description="WALOOP sits at the center of the industry wheel. Each industry connects to the platform capabilities it needs — channels, CRM, chatbots, automation, Mini-Apps and payments."
+        description="OkayChat sits at the center of the industry wheel. Each industry connects to the platform capabilities it needs — channels, CRM, chatbots, automation, Mini-Apps and payments."
         visual={<Ecosystem3D nodes={industries.map((i) => i.name)} className="mx-auto max-w-[520px]" />}
       />
 

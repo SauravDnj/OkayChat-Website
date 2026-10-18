@@ -2,7 +2,7 @@ export const privacyPolicy = {
   title: "Privacy Policy",
   updated: "October 3, 2026",
   intro:
-    "This Privacy Policy explains how WALOOP (\"we\", \"us\", \"our\") collects, uses, and protects information when you use our website and platform, including supported communication channels (such as WhatsApp, Instagram, Facebook and RCS), CRM, chatbots, automation, WhatsApp Mini-Apps, payments, dynamic experiences, analytics and AI capabilities.",
+    "This Privacy Policy explains how OkayChat (\"we\", \"us\", \"our\") collects, uses, and protects information when you use our website and platform, including supported communication channels (such as WhatsApp, Instagram, Facebook and RCS), CRM, chatbots, automation, WhatsApp Mini-Apps, payments, dynamic experiences, analytics and AI capabilities.",
   sections: [
     {
       heading: "1. Information We Collect",
@@ -15,7 +15,7 @@ export const privacyPolicy = {
     {
       heading: "2. How We Use Information",
       body: [
-        "We use collected information to provide, maintain, and improve the WALOOP platform; to respond to demo requests and support inquiries; to send account and service-related communications; and to meet our legal and compliance obligations, including applicable communication and data-protection regulations.",
+        "We use collected information to provide, maintain, and improve the OkayChat platform; to respond to demo requests and support inquiries; to send account and service-related communications; and to meet our legal and compliance obligations, including applicable communication and data-protection regulations.",
         "We do not sell your personal information to third parties.",
       ],
     },
@@ -23,7 +23,7 @@ export const privacyPolicy = {
       heading: "3. Sharing with Third Parties",
       body: [
         "We share information with the messaging and infrastructure partners required to deliver our services — for example, Meta (for WhatsApp, Instagram and Facebook messaging), communication service providers, payment gateways you configure, and applications you choose to connect to your workspace.",
-        "We may disclose information where required by law or to protect the rights, safety, and security of WALOOP, our customers, or the public.",
+        "We may disclose information where required by law or to protect the rights, safety, and security of OkayChat, our customers, or the public.",
       ],
     },
     {

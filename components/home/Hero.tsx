@@ -92,7 +92,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="relative"
         >
-          <div aria-hidden className="absolute inset-[10%] -z-10 rounded-full bg-[radial-gradient(closest-side,rgba(11,92,255,0.22),rgba(20,201,95,0.12),transparent)] blur-2xl" />
+          <div aria-hidden className="absolute inset-[10%] -z-10 rounded-full bg-[radial-gradient(closest-side,rgba(12,150,80,0.22),rgba(22,176,85,0.12),transparent)] blur-2xl" />
           <InfinityJourney3D />
           <p className="-mt-2 text-center text-xs text-text-soft">
             One connected loop — from the first message to analytics.

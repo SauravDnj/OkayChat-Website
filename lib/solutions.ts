@@ -24,13 +24,13 @@ export const solutions: Solution[] = [
     icon: "Magnet",
     short: "Capture enquiries, collect information, qualify leads, route conversations, and create structured follow-up workflows.",
     seo: {
-      title: "Lead Generation on WhatsApp | WALOOP",
-      description: "Capture enquiries, qualify leads with chatbots, store them in the CRM and route them to sales with WALOOP.",
+      title: "Lead Generation on WhatsApp | OkayChat",
+      description: "Capture enquiries, qualify leads with chatbots, store them in the CRM and route them to sales with OkayChat.",
     },
     hero: {
       title: "Turn Campaign Interest Into Qualified Leads",
       description:
-        "WALOOP connects marketing activity with conversation, customer information, routing, and follow-up so the lead journey is easier to structure.",
+        "OkayChat connects marketing activity with conversation, customer information, routing, and follow-up so the lead journey is easier to structure.",
     },
     persona: { role: "Sales Team", need: "Needs lead capture, qualification, customer context, and follow-up." },
     flow: {
@@ -66,8 +66,8 @@ export const solutions: Solution[] = [
     icon: "Megaphone",
     short: "Build campaigns, segment audiences, engage customers through supported channels, and automate follow-up.",
     seo: {
-      title: "WhatsApp Marketing Campaigns & Segmentation | WALOOP",
-      description: "Segment audiences, send bulk campaigns on supported channels and automate follow-up with WALOOP.",
+      title: "WhatsApp Marketing Campaigns & Segmentation | OkayChat",
+      description: "Segment audiences, send bulk campaigns on supported channels and automate follow-up with OkayChat.",
     },
     hero: {
       title: "Create More Connected Campaigns",
@@ -96,8 +96,8 @@ export const solutions: Solution[] = [
     icon: "TrendingUp",
     short: "Use conversational journeys to help customers discover products or services and move qualified leads to sales teams.",
     seo: {
-      title: "Conversational Sales on WhatsApp | WALOOP",
-      description: "Give sales teams customer context with chatbots, CRM, segments and lead sources on WALOOP.",
+      title: "Conversational Sales on WhatsApp | OkayChat",
+      description: "Give sales teams customer context with chatbots, CRM, segments and lead sources on OkayChat.",
     },
     hero: {
       title: "Give Sales Teams Context Before the Conversation",
@@ -126,8 +126,8 @@ export const solutions: Solution[] = [
     icon: "Headset",
     short: "Centralize conversations, use reusable responses, route customers to departments, and automate supported support journeys.",
     seo: {
-      title: "WhatsApp Customer Support & Routing | WALOOP",
-      description: "Centralize support conversations, answer FAQs with bots and AI, and route to departments with WALOOP.",
+      title: "WhatsApp Customer Support & Routing | OkayChat",
+      description: "Centralize support conversations, answer FAQs with bots and AI, and route to departments with OkayChat.",
     },
     hero: {
       title: "Resolve More, Route the Rest",
@@ -166,8 +166,8 @@ export const solutions: Solution[] = [
     icon: "HeartHandshake",
     short: "Create personalized conversations and interactive experiences across supported channels.",
     seo: {
-      title: "Customer Engagement Platform | WALOOP",
-      description: "Create personalized conversations, interactive WhatsApp experiences and dynamic content with WALOOP.",
+      title: "Customer Engagement Platform | OkayChat",
+      description: "Create personalized conversations, interactive WhatsApp experiences and dynamic content with OkayChat.",
     },
     hero: {
       title: "Personal Conversations at Every Stage",
@@ -197,8 +197,8 @@ export const solutions: Solution[] = [
     icon: "Workflow",
     short: "Connect triggers, conditions, data, applications, and actions into repeatable workflows.",
     seo: {
-      title: "Business Process Automation | WALOOP",
-      description: "Connect triggers, conditions, data, applications and actions into repeatable workflows with WALOOP.",
+      title: "Business Process Automation | OkayChat",
+      description: "Connect triggers, conditions, data, applications and actions into repeatable workflows with OkayChat.",
     },
     hero: {
       title: "Repeatable Workflows for Repetitive Work",
@@ -235,8 +235,8 @@ export const solutions: Solution[] = [
     icon: "CreditCard",
     short: "Connect customer engagement with payment-related business actions.",
     seo: {
-      title: "Payment Journeys in Conversations | WALOOP",
-      description: "Move from conversation to payment order, gateway, status, confirmation and automation with WALOOP.",
+      title: "Payment Journeys in Conversations | OkayChat",
+      description: "Move from conversation to payment order, gateway, status, confirmation and automation with OkayChat.",
     },
     hero: {
       title: "From Conversation to Confirmation",
@@ -266,11 +266,11 @@ export function getSolution(slug: string) {
 
 /** §32 Solution diagram. */
 export const solutionsFlow: Flow = {
-  title: "WALOOP solutions",
+  title: "OkayChat solutions",
   caption:
     "Lead generation, sales and marketing all feed customer engagement, which continues into customer support, business automation and payment journeys.",
   steps: [
-    "WALOOP Solutions",
+    "OkayChat Solutions",
     { branches: [
       { label: "Lead Generation", steps: [] },
       { label: "Sales", steps: [] },

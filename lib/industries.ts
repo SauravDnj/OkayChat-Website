@@ -23,8 +23,8 @@ export const industries: Industry[] = [
     icon: "ShoppingBag",
     short: "Product discovery, enquiries, campaigns, order communication, support and payments.",
     seo: {
-      title: "WhatsApp for Retail & E-commerce | WALOOP",
-      description: "Product discovery, campaigns, order-related communication, support and payment journeys on WhatsApp with WALOOP.",
+      title: "WhatsApp for Retail & E-commerce | OkayChat",
+      description: "Product discovery, campaigns, order-related communication, support and payment journeys on WhatsApp with OkayChat.",
     },
     hero: {
       title: "Conversational Commerce for Retail & E-commerce",
@@ -47,8 +47,8 @@ export const industries: Industry[] = [
     icon: "GraduationCap",
     short: "Admission enquiries, course information, lead qualification, reminders and student communication.",
     seo: {
-      title: "WhatsApp for Education & Admissions | WALOOP",
-      description: "Handle admission enquiries, share course information, qualify leads and send reminders with WALOOP.",
+      title: "WhatsApp for Education & Admissions | OkayChat",
+      description: "Handle admission enquiries, share course information, qualify leads and send reminders with OkayChat.",
     },
     hero: {
       title: "Admissions and Student Communication on WhatsApp",
@@ -70,8 +70,8 @@ export const industries: Industry[] = [
     icon: "HeartPulse",
     short: "Appointment enquiries, patient communication, reminders and support workflows.",
     seo: {
-      title: "WhatsApp for Healthcare Communication | WALOOP",
-      description: "Appointment enquiries, patient communication, reminders and support workflows with WALOOP.",
+      title: "WhatsApp for Healthcare Communication | OkayChat",
+      description: "Appointment enquiries, patient communication, reminders and support workflows with OkayChat.",
     },
     hero: {
       title: "Patient Communication That's Easier to Manage",
@@ -94,8 +94,8 @@ export const industries: Industry[] = [
     icon: "Building",
     short: "Property enquiries, lead capture, qualification, follow-up and sales conversations.",
     seo: {
-      title: "WhatsApp for Real Estate Leads | WALOOP",
-      description: "Capture property enquiries, qualify buyers and follow up with sales conversations using WALOOP.",
+      title: "WhatsApp for Real Estate Leads | OkayChat",
+      description: "Capture property enquiries, qualify buyers and follow up with sales conversations using OkayChat.",
     },
     hero: {
       title: "Every Property Enquiry, Captured and Followed Up",
@@ -117,8 +117,8 @@ export const industries: Industry[] = [
     icon: "Landmark",
     short: "Customer enquiries, lead journeys, notifications and service communication.",
     seo: {
-      title: "WhatsApp for Financial Services | WALOOP",
-      description: "Customer enquiries, lead journeys, notifications and service communication with WALOOP.",
+      title: "WhatsApp for Financial Services | OkayChat",
+      description: "Customer enquiries, lead journeys, notifications and service communication with OkayChat.",
     },
     hero: {
       title: "Structured Communication for Financial Services",
@@ -141,8 +141,8 @@ export const industries: Industry[] = [
     icon: "Plane",
     short: "Enquiries, booking-related communication, confirmations, support and personalized communication.",
     seo: {
-      title: "WhatsApp for Travel & Hospitality | WALOOP",
-      description: "Enquiries, booking-related communication, confirmations and guest support with WALOOP.",
+      title: "WhatsApp for Travel & Hospitality | OkayChat",
+      description: "Enquiries, booking-related communication, confirmations and guest support with OkayChat.",
     },
     hero: {
       title: "Guest Communication From Enquiry to Stay",
@@ -164,8 +164,8 @@ export const industries: Industry[] = [
     icon: "Car",
     short: "Vehicle enquiries, lead qualification, service reminders, support and follow-up.",
     seo: {
-      title: "WhatsApp for Automotive Sales & Service | WALOOP",
-      description: "Vehicle enquiries, lead qualification, service reminders and follow-up with WALOOP.",
+      title: "WhatsApp for Automotive Sales & Service | OkayChat",
+      description: "Vehicle enquiries, lead qualification, service reminders and follow-up with OkayChat.",
     },
     hero: {
       title: "From Vehicle Enquiry to Service Reminder",

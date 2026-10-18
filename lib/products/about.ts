@@ -1,10 +1,10 @@
 // Content data for the /about page (spec §59, §77, §81).
 
 export const hero = {
-  badge: "About WALOOP",
+  badge: "About OkayChat",
   title: "Built to Connect the Modern Customer Journey",
   description:
-    "WALOOP brings communication, customer management, automation, interactive experiences, payments, dynamic content, analytics, and AI into one connected platform.",
+    "OkayChat brings communication, customer management, automation, interactive experiences, payments, dynamic content, analytics, and AI into one connected platform.",
   goal:
     "The goal is simple: help businesses create better customer journeys while giving teams a centralized environment to manage conversations, data, workflows, and customer actions.",
 };
@@ -16,7 +16,7 @@ export const brandStory = [
     label: "Problem",
     text: "Businesses often manage conversations, customer data, automation, campaigns, payments, and support through disconnected processes.",
   },
-  { label: "Solution", text: "WALOOP brings these capabilities together." },
+  { label: "Solution", text: "OkayChat brings these capabilities together." },
   { label: "Platform", text: "Connect → Capture → Understand → Engage → Automate → Convert → Support → Analyze" },
   {
     label: "Outcome",
@@ -24,7 +24,7 @@ export const brandStory = [
   },
 ];
 
-/** §80 What the website — and WALOOP — should feel like. */
+/** §80 What the website — and OkayChat — should feel like. */
 export const values = [
   { icon: "BadgeCheck", title: "Professional", description: "Clear, business-focused communication." },
   { icon: "Eye", title: "Clear", description: "Technical features explained in business language." },

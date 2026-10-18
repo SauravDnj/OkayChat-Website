@@ -11,8 +11,8 @@ import { ctas, siteConfig } from "@/lib/content";
 import { contactDetails, hero } from "@/lib/products/contact";
 
 export const metadata: Metadata = {
-  title: "Contact WALOOP | Let's Build Your Customer Journey",
-  description: `Talk to the WALOOP team about plans, product capabilities or your use case. WhatsApp ${siteConfig.whatsapp}, phone ${siteConfig.phone}, email ${siteConfig.email}.`,
+  title: "Contact OkayChat | Let's Build Your Customer Journey",
+  description: `Talk to the OkayChat team about plans, product capabilities or your use case. WhatsApp ${siteConfig.whatsapp}, phone ${siteConfig.phone}, email ${siteConfig.email}.`,
 };
 
 export default function ContactPage() {
@@ -58,7 +58,7 @@ export default function ContactPage() {
       <Section tone="tint" className="pt-0 sm:pt-0">
         <div className="grid grid-cols-1 gap-10 pt-20 sm:pt-28 lg:grid-cols-[0.8fr_1.2fr]">
           <Reveal>
-            <h2 className="font-heading text-3xl font-bold text-text sm:text-4xl">Talk to WALOOP</h2>
+            <h2 className="font-heading text-3xl font-bold text-text sm:text-4xl">Talk to OkayChat</h2>
             <p className="mt-4 text-base text-text-muted">
               Share a few details and we&apos;ll continue the conversation on WhatsApp — the same channel your customers use.
             </p>

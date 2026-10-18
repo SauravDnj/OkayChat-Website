@@ -1,7 +1,7 @@
 import * as THREE from "three";
 
 /**
- * Lemniscate of Bernoulli — the shape of the WALOOP Infinity Connect mark.
+ * Lemniscate of Bernoulli — the connected customer-journey loop.
  * A small z offset lifts one strand over the other at the crossing so the tube never intersects itself.
  */
 export class InfinityCurve extends THREE.Curve<THREE.Vector3> {
@@ -21,13 +21,13 @@ export class InfinityCurve extends THREE.Curve<THREE.Vector3> {
   }
 }
 
-// Logo palette: blue on the left lobe → cyan at the crossing → green/lime on the right lobe.
+// OkayChat palette: deep green on the left lobe → brand green at the crossing → light green on the right lobe.
 const STOPS: [number, THREE.Color][] = [
-  [0, new THREE.Color("#0a3fe0")],
-  [0.3, new THREE.Color("#0b6cff")],
-  [0.5, new THREE.Color("#07c8f0")],
-  [0.72, new THREE.Color("#16c95f")],
-  [1, new THREE.Color("#7ae82a")],
+  [0, new THREE.Color("#0a7a41")],
+  [0.3, new THREE.Color("#0c9650")],
+  [0.5, new THREE.Color("#16b055")],
+  [0.72, new THREE.Color("#2fcb6c")],
+  [1, new THREE.Color("#7fe3a3")],
 ];
 
 export function brandColorAt(u: number, target = new THREE.Color()) {

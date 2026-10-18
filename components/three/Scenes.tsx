@@ -34,24 +34,24 @@ function JourneyFallback() {
   return (
     <div className="flex h-full w-full items-center justify-center">
       <Image
-        src="/brand/waloop-icon.png"
+        src="/brand/okaychat-icon.png"
         alt=""
         width={512}
-        height={228}
-        className="w-3/4 max-w-sm animate-[pulse_4s_ease-in-out_infinite] drop-shadow-[0_20px_40px_rgba(11,92,255,0.35)] motion-reduce:animate-none"
+        height={512}
+        className="w-1/2 max-w-[14rem] animate-[pulse_4s_ease-in-out_infinite] drop-shadow-[0_20px_40px_rgba(12,150,80,0.35)] motion-reduce:animate-none"
       />
     </div>
   );
 }
 
 /** Radial 2D wheel — a readable diagram on its own when 3D isn't available. */
-export function EcosystemWheel({ nodes, centerLabel = "WALOOP", highlight }: EcosystemSceneProps) {
+export function EcosystemWheel({ nodes, centerLabel = "OkayChat", highlight }: EcosystemSceneProps) {
   const hasHighlight = !!highlight?.length;
   return (
     <div className="relative h-full w-full">
       <div className="absolute inset-[14%] rounded-full border border-dashed border-brand-blue/30" />
       <div className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center gap-2">
-        <Image src="/brand/waloop-icon.png" alt="" width={512} height={228} className="w-24 sm:w-28" />
+        <Image src="/brand/okaychat-icon.png" alt="" width={512} height={512} className="w-16 sm:w-20" />
         <span className="rounded-full bg-brand-gradient px-3 py-1 font-heading text-[11px] font-bold uppercase tracking-widest text-white">
           {centerLabel}
         </span>
@@ -85,7 +85,7 @@ const InfinityJourneyScene = dynamic(() => import("@/components/three/InfinityJo
 
 const EcosystemScene = dynamic(() => import("@/components/three/EcosystemScene"), { ssr: false });
 
-/** Hero visual — the WALOOP infinity loop with the customer journey travelling around it. */
+/** Hero visual — the OkayChat infinity loop with the customer journey travelling around it. */
 export function InfinityJourney3D({ className }: { className?: string }) {
   const ref = React.useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { amount: 0.1 });
@@ -93,7 +93,7 @@ export function InfinityJourney3D({ className }: { className?: string }) {
   return (
     <div ref={ref} className={cn("relative aspect-[6/5] w-full", className)}>
       <p className="sr-only">
-        Diagram: the WALOOP customer journey loop — Message, Channel, Conversation, CRM, Chatbot, Automation, Mini-App, Payment,
+        Diagram: the OkayChat customer journey loop — Message, Channel, Conversation, CRM, Chatbot, Automation, Mini-App, Payment,
         Follow-up and Analytics.
       </p>
       {webgl ? <InfinityJourneyScene paused={!inView} /> : <JourneyFallback />}
@@ -101,7 +101,7 @@ export function InfinityJourney3D({ className }: { className?: string }) {
   );
 }
 
-/** Labelled WALOOP hub with connected nodes — ecosystem, industries, integrations, connections. */
+/** Labelled OkayChat hub with connected nodes — ecosystem, industries, integrations, connections. */
 export function Ecosystem3D({ className, ...props }: EcosystemSceneProps & { className?: string }) {
   const ref = React.useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { amount: 0.1 });
@@ -109,7 +109,7 @@ export function Ecosystem3D({ className, ...props }: EcosystemSceneProps & { cla
   return (
     <div ref={ref} className={cn("relative aspect-square w-full", className)}>
       <p className="sr-only">
-        Diagram: {props.centerLabel ?? "WALOOP"} connected to {props.nodes.join(", ")}.
+        Diagram: {props.centerLabel ?? "OkayChat"} connected to {props.nodes.join(", ")}.
       </p>
       {webgl ? <EcosystemScene {...props} paused={!inView} /> : <EcosystemWheel {...props} />}
     </div>

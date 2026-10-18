@@ -12,7 +12,7 @@ const ecosystemNodes = ["Channels", "CRM", "Chatbots", "Automations", "Mini-Apps
 export function EcosystemSection() {
   return (
     <Section id="platform">
-      <SectionHeading eyebrow="The WALOOP solution" title={platformOverview.heading} description={platformOverview.intro} />
+      <SectionHeading eyebrow="The OkayChat solution" title={platformOverview.heading} description={platformOverview.intro} />
 
       <div className="mt-14 grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.1fr_1fr]">
         <Reveal className="order-2 lg:order-1">
@@ -21,7 +21,7 @@ export function EcosystemSection() {
         <Reveal className="order-1 lg:order-2" delay={0.1}>
           <h3 className="font-heading text-2xl font-bold text-text">An ecosystem — not a collection of disconnected products</h3>
           <p className="mt-4 text-base leading-relaxed text-text-muted">
-            Channels bring conversations in. Chatbots and the CRM work around WALOOP at the center. Automations connect
+            Channels bring conversations in. Chatbots and the CRM work around OkayChat at the center. Automations connect
             everything to Mini-Apps, payments and dynamic experiences — with AI and analytics across the whole journey.
           </p>
           <ul className="mt-6 grid grid-cols-1 gap-2 text-sm sm:grid-cols-2">

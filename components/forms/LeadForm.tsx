@@ -19,7 +19,7 @@ type LeadFormProps = {
 };
 
 /**
- * The site has no backend, so the form hands the enquiry to WALOOP's official WhatsApp
+ * The site has no backend, so the form hands the enquiry to OkayChat's official WhatsApp
  * number with the details prefilled (and offers email as an alternative).
  */
 export function LeadForm({ intent = "contact", submitLabel }: LeadFormProps) {
@@ -27,7 +27,7 @@ export function LeadForm({ intent = "contact", submitLabel }: LeadFormProps) {
 
   function buildMessage(data: FormData) {
     const lines = [
-      intent === "demo" ? "Hi WALOOP, I'd like to book a demo." : "Hi WALOOP, I have a question.",
+      intent === "demo" ? "Hi OkayChat, I'd like to book a demo." : "Hi OkayChat, I have a question.",
       `Name: ${data.get("name")}`,
       data.get("company") ? `Business: ${data.get("company")}` : "",
       `Phone: ${data.get("phone")}`,
@@ -56,7 +56,7 @@ export function LeadForm({ intent = "contact", submitLabel }: LeadFormProps) {
         <AnimatedCheckmark />
         <h3 className="font-heading text-xl font-bold text-text">Your message is ready on WhatsApp</h3>
         <p className="max-w-sm text-sm text-text-muted">
-          We opened WhatsApp with your details for {siteConfig.whatsapp}. Press send there and the WALOOP team will get back to you.
+          We opened WhatsApp with your details for {siteConfig.whatsapp}. Press send there and the OkayChat team will get back to you.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Button as="a" href={whatsappMessageLink(sentText)} variant="brand" size="sm">
@@ -108,12 +108,12 @@ export function LeadForm({ intent = "contact", submitLabel }: LeadFormProps) {
         </Field>
       )}
       <Field label="Tell us about your use case" htmlFor="message" className="sm:col-span-2">
-        <textarea id="message" name="message" rows={4} placeholder="What would you like to build with WALOOP?" className={`${inputClass} resize-none`} />
+        <textarea id="message" name="message" rows={4} placeholder="What would you like to build with OkayChat?" className={`${inputClass} resize-none`} />
       </Field>
       <div className="flex flex-col gap-3 sm:col-span-2 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-xs text-text-soft">Submitting opens WhatsApp with your details for {siteConfig.whatsapp}.</p>
         <Button type="submit" variant="brand" size="lg" icon={<ChannelIcon channel="whatsapp" className="h-4 w-4" />}>
-          {submitLabel ?? (intent === "demo" ? "Request My Demo" : "Talk to WALOOP")}
+          {submitLabel ?? (intent === "demo" ? "Request My Demo" : "Talk to OkayChat")}
         </Button>
       </div>
     </form>

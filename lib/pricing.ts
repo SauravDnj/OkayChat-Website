@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/content";
 
 export const hero = {
   badge: "Pricing",
-  title: "Choose the WALOOP Plan That Fits Your Business",
+  title: "Choose the OkayChat Plan That Fits Your Business",
   description:
     "Simple yearly plans for every stage — from a structured foundation for customer conversations to customized enterprise requirements.",
 };
@@ -48,7 +48,7 @@ export const plans: PricingPlan[] = [
     name: "Enterprise",
     label: "Customized Requirements",
     positioning: "For organizations with customized requirements, scale, integrations, or operational needs.",
-    description: "A tailored setup scoped with the WALOOP team around your requirements.",
+    description: "A tailored setup scoped with the OkayChat team around your requirements.",
     price: "Custom Pricing",
     priceSuffix: "",
     cta: { label: "Talk to Sales", href: "/contact" },
@@ -59,9 +59,9 @@ export const plans: PricingPlan[] = [
 export const pricingNotes = {
   heading: "What the subscription covers — and what's billed separately",
   description:
-    "Your WALOOP plan is the platform subscription. The following are separate where applicable, and are not included unless confirmed in writing.",
+    "Your OkayChat plan is the platform subscription. The following are separate where applicable, and are not included unless confirmed in writing.",
   items: [
-    { icon: "LayoutDashboard", title: "Platform subscription", description: "The yearly WALOOP plan you choose." },
+    { icon: "LayoutDashboard", title: "Platform subscription", description: "The yearly OkayChat plan you choose." },
     { icon: "Gauge", title: "Usage charges", description: "Charges based on usage, where applicable." },
     { icon: "Server", title: "Provider charges", description: "Charges from communication service providers." },
     { icon: "MessageCircle", title: "WhatsApp / Meta charges", description: "Conversation or messaging charges set by WhatsApp/Meta." },
@@ -73,7 +73,7 @@ export const pricingNotes = {
 
 export const closingCta = {
   heading: "Not sure which plan fits?",
-  description: "Talk to the WALOOP team — we'll map the plan to your channels, journeys and requirements.",
+  description: "Talk to the OkayChat team — we'll map the plan to your channels, journeys and requirements.",
   primaryCta: { label: "Talk to Sales", href: "/contact" },
   secondaryCta: { label: "Book a Demo", href: "/demo" },
 };

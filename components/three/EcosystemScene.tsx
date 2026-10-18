@@ -18,7 +18,7 @@ export type EcosystemSceneProps = {
   paused?: boolean;
 };
 
-function Hub({ nodes, centerLabel = "WALOOP", highlight, radius = 2.0, reduceMotion }: EcosystemSceneProps & { reduceMotion: boolean }) {
+function Hub({ nodes, centerLabel = "OkayChat", highlight, radius = 2.0, reduceMotion }: EcosystemSceneProps & { reduceMotion: boolean }) {
   const orbit = React.useRef<THREE.Group>(null);
   const core = React.useRef<THREE.Group>(null);
   const pulses = React.useRef<(THREE.Mesh | null)[]>([]);
@@ -69,7 +69,7 @@ function Hub({ nodes, centerLabel = "WALOOP", highlight, radius = 2.0, reduceMot
       <group ref={orbit} rotation={[0.42, 0, 0]}>
         <mesh rotation={[Math.PI / 2, 0, 0]}>
           <torusGeometry args={[radius, 0.006, 8, 160]} />
-          <meshBasicMaterial color="#4d8dff" transparent opacity={0.35} />
+          <meshBasicMaterial color="#16b055" transparent opacity={0.35} />
         </mesh>
 
         {nodes.map((label, i) => {
@@ -107,8 +107,8 @@ export default function EcosystemScene(props: EcosystemSceneProps) {
     <Canvas style={{ overflow: "visible" }} frameloop={props.paused ? "never" : "always"} camera={{ position: [0, 0.5, 7.6], fov: 44 }} gl={{ antialias: true, alpha: true }} dpr={[1, 1.75]}>
       <ambientLight intensity={0.75} />
       <directionalLight position={[2, 4, 5]} intensity={2} />
-      <pointLight position={[-4, 2, 3]} intensity={25} color="#4d8dff" />
-      <pointLight position={[4, -2, 3]} intensity={25} color="#2ee57a" />
+      <pointLight position={[-4, 2, 3]} intensity={25} color="#16b055" />
+      <pointLight position={[4, -2, 3]} intensity={25} color="#86efac" />
       <Hub {...props} reduceMotion={reduceMotion} />
     </Canvas>
   );

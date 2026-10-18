@@ -15,7 +15,7 @@ type FAQProps = {
 export function FAQ({
   items = homeFaqs,
   heading = "Frequently Asked Questions",
-  description = "Answers about WALOOP, its capabilities, plans and charges.",
+  description = "Answers about OkayChat, its capabilities, plans and charges.",
   showMore = true,
 }: FAQProps) {
   return (

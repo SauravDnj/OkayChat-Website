@@ -41,7 +41,7 @@ export function MegaMenu({ group }: { group: NavGroup }) {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 8, scale: 0.98 }}
             transition={{ duration: 0.16, ease: "easeOut" }}
-            className="absolute left-1/2 top-full z-50 mt-3 w-[min(92vw,720px)] -translate-x-1/2 overflow-hidden rounded-2xl border border-border bg-surface shadow-[0_20px_40px_-12px_rgba(7,19,48,0.18)]"
+            className="absolute left-1/2 top-full z-50 mt-3 w-[min(92vw,720px)] -translate-x-1/2 overflow-hidden rounded-2xl border border-border bg-surface shadow-[0_20px_40px_-12px_rgba(20,20,30,0.18)]"
           >
             <div className="grid grid-cols-1 gap-x-6 gap-y-2 p-5 sm:grid-cols-2">
               {group.columns.map((col) => (

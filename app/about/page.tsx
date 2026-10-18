@@ -13,7 +13,7 @@ import { journeyStages } from "@/lib/journeys";
 import { brandStory, hero, values } from "@/lib/products/about";
 
 export const metadata: Metadata = {
-  title: "About WALOOP | Built to Connect the Modern Customer Journey",
+  title: "About OkayChat | Built to Connect the Modern Customer Journey",
   description: hero.description,
 };
 
@@ -25,10 +25,10 @@ export default function AboutPage() {
         icon="Building2"
         title={hero.title}
         description={hero.description}
-        primary={ctas.talkToWaloop}
+        primary={ctas.talkToOkayChat}
         visual={
           <div className="flex flex-col items-center gap-6">
-            <BrandLockup className="h-56 sm:h-64" />
+            <BrandLockup className="h-16 sm:h-24" />
             <MetaVerifiedBadge size="md" />
           </div>
         }
@@ -38,7 +38,7 @@ export default function AboutPage() {
 
       {/* §77 Brand story */}
       <Section>
-        <SectionHeading eyebrow="Our story" title="Why WALOOP Exists" />
+        <SectionHeading eyebrow="Our story" title="Why OkayChat Exists" />
         <div className="mx-auto mt-14 max-w-3xl">
           <ol className="relative space-y-5 border-l border-border pl-8">
             {brandStory.map((s, i) => (
@@ -79,7 +79,7 @@ export default function AboutPage() {
       </Section>
 
       <Section tone="tint">
-        <SectionHeading eyebrow="How we work" title="What WALOOP Stands For" />
+        <SectionHeading eyebrow="How we work" title="What OkayChat Stands For" />
         <RevealGroup className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {values.map((v) => (
             <RevealItem key={v.title} className="flex gap-4 rounded-2xl border border-border bg-surface p-5">
@@ -95,7 +95,7 @@ export default function AboutPage() {
         </RevealGroup>
       </Section>
 
-      <CTASection heading="Build Smarter Customer Journeys With WALOOP." description={siteConfig.tagline} />
+      <CTASection heading="Build Smarter Customer Journeys With OkayChat." description={siteConfig.tagline} />
     </>
   );
 }

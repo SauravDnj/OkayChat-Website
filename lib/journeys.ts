@@ -30,7 +30,7 @@ export const heroJourney = [
 
 /** §25 / §71 Master customer journey. */
 export const masterJourney: Flow = {
-  title: "The complete WALOOP customer journey",
+  title: "The complete OkayChat customer journey",
   caption:
     "A customer reaches the business on WhatsApp or social channels. A bot or human handles the conversation, the CRM organizes contact and data, and automation runs the rules. The journey continues into a Mini-App, a payment journey or a dynamic experience, supported by AI, then follow-up and analytics.",
   steps: [
@@ -72,7 +72,7 @@ export const interactiveJourney = [
     icon: "MessageCircle",
     title: "It starts with a message",
     description:
-      "A customer messages your business on WhatsApp, Instagram, Facebook or RCS. The conversation enters WALOOP through a supported channel and lands in one shared workspace.",
+      "A customer messages your business on WhatsApp, Instagram, Facebook or RCS. The conversation enters OkayChat through a supported channel and lands in one shared workspace.",
     points: ["Supported channels in one hub", "Shared Live Chat for teams", "Conversation history kept"],
   },
   {
@@ -81,7 +81,7 @@ export const interactiveJourney = [
     icon: "Contact",
     title: "The customer is recognized",
     description:
-      "WALOOP identifies the contact and connects the conversation to their CRM record — fields, data, segment and history — so every reply has context.",
+      "OkayChat identifies the contact and connects the conversation to their CRM record — fields, data, segment and history — so every reply has context.",
     points: ["Contact identified", "Super Fields & Data Stores", "Segments for targeting"],
   },
   {
@@ -132,7 +132,7 @@ export const conversationToPlatform: Flow = {
 
 /** §45 Feature relationship map. */
 export const relationshipMap: Flow = {
-  title: "How WALOOP capabilities connect",
+  title: "How OkayChat capabilities connect",
   caption:
     "Channels feed the CRM and chatbots, which work together. CRM segments drive campaigns and bot data drives automation; both lead into Mini-Apps, payments, AI, follow-up and analytics.",
   steps: [
@@ -151,11 +151,11 @@ export const relationshipMap: Flow = {
 
 /** §43 Dashboard graphic. */
 export const dashboardFlow: Flow = {
-  title: "WALOOP dashboard",
+  title: "OkayChat dashboard",
   caption:
     "The dashboard is the control center: channels, CRM and chatbots feed automations, which connect to payments and AI and report into analytics.",
   steps: [
-    "WALOOP Dashboard",
+    "OkayChat Dashboard",
     { branches: [
       { label: "Channels", steps: [] },
       { label: "CRM", steps: [] },
@@ -262,7 +262,7 @@ export const demoFlow = [
 /** §70 Full website storyboard. */
 export const storyboard = [
   { scene: "Customer", text: "A customer sends a message." },
-  { scene: "Channel", text: "The message enters WALOOP through a supported channel." },
+  { scene: "Channel", text: "The message enters OkayChat through a supported channel." },
   { scene: "Conversation", text: "A chatbot or team member handles the interaction." },
   { scene: "CRM", text: "Customer information is organized." },
   { scene: "Automation", text: "A workflow responds to the event." },

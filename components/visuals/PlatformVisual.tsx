@@ -41,7 +41,7 @@ function Illustrative() {
   );
 }
 
-// ───────────────────────────── Channels — channel icons → WALOOP hub → operations (§48)
+// ───────────────────────────── Channels — channel icons → OkayChat hub → operations (§48)
 
 function ChannelsVisual() {
   const channels: ChannelKey[] = ["whatsapp", "instagram", "facebook", "rcs"];
@@ -72,8 +72,8 @@ function ChannelsVisual() {
       </div>
 
       <div className="border-brand-gradient flex flex-1 flex-col items-center gap-2 rounded-2xl px-4 py-6 text-center shadow-glow">
-        <Image src="/brand/waloop-icon.png" alt="" width={512} height={228} className="w-20" />
-        <p className="font-heading text-sm font-bold text-text">WALOOP Channel Hub</p>
+        <Image src="/brand/okaychat-icon.png" alt="" width={512} height={512} className="w-14" />
+        <p className="font-heading text-sm font-bold text-text">OkayChat Channel Hub</p>
         <p className="text-[11px] text-text-muted">One shared workspace for every conversation</p>
       </div>
 
@@ -309,17 +309,17 @@ function DynamicVisual() {
             whileInView={{ rotate: 3, opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="flex aspect-[4/5] flex-col gap-1.5 rounded-xl border border-border bg-white p-3 text-[#071330] shadow-soft"
+            className="flex aspect-[4/5] flex-col gap-1.5 rounded-xl border border-border bg-white p-3 text-[#14141e] shadow-soft"
           >
-            <span className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-[#0b5cff]">
+            <span className="flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-[#0c9650]">
               <FileText className="h-3 w-3" /> PDF
             </span>
             <p className="font-heading text-[13px] font-bold">Quotation</p>
-            <p className="text-[10px] text-[#55617a]">Prepared for Priya · Ahmedabad</p>
-            <span className="mt-1 h-1.5 w-full rounded bg-[#eef3f9]" />
-            <span className="h-1.5 w-4/5 rounded bg-[#eef3f9]" />
-            <span className="h-1.5 w-3/5 rounded bg-[#eef3f9]" />
-            <span className="mt-auto h-1.5 w-2/5 self-end rounded bg-[#14c95f]" />
+            <p className="text-[10px] text-[#585c68]">Prepared for Priya · Ahmedabad</p>
+            <span className="mt-1 h-1.5 w-full rounded bg-[#eef5f0]" />
+            <span className="h-1.5 w-4/5 rounded bg-[#eef5f0]" />
+            <span className="h-1.5 w-3/5 rounded bg-[#eef5f0]" />
+            <span className="mt-auto h-1.5 w-2/5 self-end rounded bg-[#16b055]" />
           </motion.div>
         </div>
       </div>
@@ -349,7 +349,7 @@ function AiVisual() {
       <ArrowDown className="mx-auto h-4 w-4 text-brand-blue" aria-hidden />
       <div className="border-brand-gradient flex items-center justify-center gap-2 rounded-xl px-4 py-3 shadow-glow">
         <BrainCircuit className="h-5 w-5 text-brand-green-deep" />
-        <span className="font-heading text-sm font-bold text-text">WALOOP AI Knowledge</span>
+        <span className="font-heading text-sm font-bold text-text">OkayChat AI Knowledge</span>
       </div>
       <ArrowDown className="mx-auto h-4 w-4 text-brand-blue" aria-hidden />
       <Panel className="space-y-2 bg-[#efeae2] p-3 text-[12px] dark:bg-[#0b141a]">
@@ -357,7 +357,7 @@ function AiVisual() {
           Do you have a yearly plan for small businesses?
         </p>
         <p className="max-w-[90%] rounded-lg rounded-tl-none bg-white px-2.5 py-1.5 text-[#111b21] dark:bg-[#202c33] dark:text-[#e9edef]">
-          <span className="mb-0.5 flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-[#0b5cff] dark:text-[#4fb8ff]">
+          <span className="mb-0.5 flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider text-[#0c9650] dark:text-[#4ade80]">
             <BrainCircuit className="h-3 w-3" /> AI response
           </span>
           Yes — Starter is ₹15,000/year for businesses starting with customer engagement. Want me to connect you with our team?

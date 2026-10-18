@@ -12,15 +12,15 @@ import { siteConfig } from "@/lib/content";
 import { resourceHub } from "@/lib/resources";
 
 export const metadata: Metadata = {
-  title: "WALOOP Support | WhatsApp, Phone, Email & Support Tickets",
-  description: `Get help with WALOOP. WhatsApp ${siteConfig.whatsapp}, phone ${siteConfig.phone}, email ${siteConfig.email}, or raise a Support Ticket in your workspace.`,
+  title: "OkayChat Support | WhatsApp, Phone, Email & Support Tickets",
+  description: `Get help with OkayChat. WhatsApp ${siteConfig.whatsapp}, phone ${siteConfig.phone}, email ${siteConfig.email}, or raise a Support Ticket in your workspace.`,
 };
 
 const channels = [
-  { key: "whatsapp", title: "WhatsApp", value: siteConfig.whatsapp, href: siteConfig.whatsappLink, description: "Message the WALOOP team." },
-  { key: "Phone", title: "Phone", value: siteConfig.phone, href: siteConfig.phoneLink, description: "Call the WALOOP team." },
+  { key: "whatsapp", title: "WhatsApp", value: siteConfig.whatsapp, href: siteConfig.whatsappLink, description: "Message the OkayChat team." },
+  { key: "Phone", title: "Phone", value: siteConfig.phone, href: siteConfig.phoneLink, description: "Call the OkayChat team." },
   { key: "Mail", title: "Email", value: siteConfig.email, href: `mailto:${siteConfig.email}`, description: "Write to us with details." },
-  { key: "LifeBuoy", title: "Support Ticket", value: siteConfig.appLabel, href: siteConfig.appUrl, description: "Create and manage support requests from your WALOOP workspace." },
+  { key: "LifeBuoy", title: "Support Ticket", value: siteConfig.appLabel, href: siteConfig.appUrl, description: "Create and manage support requests from your OkayChat workspace." },
 ];
 
 export default function SupportPage() {
@@ -30,7 +30,7 @@ export default function SupportPage() {
         eyebrow="Support"
         icon="LifeBuoy"
         title="We're Here to Help"
-        description="Reach the WALOOP team on WhatsApp, phone or email — or raise a Support Ticket from inside your workspace."
+        description="Reach the OkayChat team on WhatsApp, phone or email — or raise a Support Ticket from inside your workspace."
         primary={{ label: "Chat on WhatsApp", href: siteConfig.whatsappLink }}
         secondary={{ label: "Open Your Workspace", href: siteConfig.appUrl }}
       />

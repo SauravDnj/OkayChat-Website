@@ -26,7 +26,7 @@ export function JourneySection() {
               From First Message to <span className="text-gradient-brand">Meaningful Action</span>
             </>
           }
-          description="A customer journey can start with a simple message. WALOOP can connect that conversation with customer data, automated questions, team routing, interactive experiences, payment-related actions, follow-up, and available analytics."
+          description="A customer journey can start with a simple message. OkayChat can connect that conversation with customer data, automated questions, team routing, interactive experiences, payment-related actions, follow-up, and available analytics."
         />
 
         {/* Connected journey strip (§47) */}

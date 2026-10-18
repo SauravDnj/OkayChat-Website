@@ -7,14 +7,14 @@ import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import { Ecosystem3D } from "@/components/three/Scenes";
 import { industries } from "@/lib/industries";
 
-/** §33–34 Industries + industry wheel around WALOOP. */
+/** §33–34 Industries + industry wheel around OkayChat. */
 export function IndustriesSection({ tinted = true }: { tinted?: boolean }) {
   return (
     <Section tone={tinted ? "tint" : "default"} id="industries">
       <SectionHeading
         eyebrow="Industries"
         title="Built for Businesses That Communicate With Customers"
-        description="WALOOP sits at the center; each industry connects to the platform capabilities it needs."
+        description="OkayChat sits at the center; each industry connects to the platform capabilities it needs."
       />
       <div className="mt-14 grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_1.15fr]">
         <Reveal>

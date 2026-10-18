@@ -1,7 +1,7 @@
-# WALOOP Website — Build Plan (Phases & Tasks)
+# OkayChat Website — Build Plan (Phases & Tasks)
 
-Source of truth: `WALOOP_Website_Content_Context_Specification_DETAILED.md` (81 sections).
-Brand assets: WALOOP Infinity Connect logo (light/dark lockups + icon) and the Meta Verified badge, stored in `public/brand/`.
+Source of truth: `OkayChat_Website_Content_Context_Specification_DETAILED.md` (81 sections).
+Brand assets: OkayChat logo (OkayChat.in wordmark with smile) (light/dark lockups + icon) and the Meta Verified badge, stored in `public/brand/`.
 
 Core rule from the spec: **build around the customer journey, not a list of features.**
 `CUSTOMER → MESSAGE → CHANNEL → CONVERSATION → CRM → CHATBOT/HUMAN → AUTOMATION → INTERACTIVE EXPERIENCE → PAYMENT → FOLLOW-UP → ANALYTICS`
@@ -9,21 +9,21 @@ Core rule from the spec: **build around the customer journey, not a list of feat
 ---
 
 ## Phase 0 — Brand & Assets
-- [x] 0.1 Trim and export the WALOOP icon (`waloop-icon.png`, `waloop-icon-sm.png`)
-- [x] 0.2 Export full lockups for light and dark themes (`waloop-logo-light.png`, `waloop-logo-dark.png`)
+- [x] 0.1 Trim and export the OkayChat icon (`okaychat-icon.png`, `okaychat-icon-sm.png`)
+- [x] 0.2 Export full lockups for light and dark themes (`okaychat-logo-light.png`, `okaychat-logo-dark.png`, `okaychat-wordmark-light.png`, `okaychat-wordmark-dark.png`)
 - [x] 0.3 Generate favicon, app icon and Apple touch icon from the Infinity icon
 - [x] 0.4 Prepare the Meta Verified badge (`meta-verified.png`, background removed)
 
 ## Phase 1 — Foundation (design system + data model)
 - [x] 1.1 Retheme color tokens from lime/charcoal to the logo palette (blue → cyan → green), light + dark
-- [x] 1.2 New `Logo` component (Infinity icon + gradient WALOOP wordmark) and `BrandLockup` (full logo, theme-aware)
+- [x] 1.2 New `Logo` component (Infinity icon + gradient OkayChat wordmark) and `BrandLockup` (full logo, theme-aware)
 - [x] 1.3 `MetaVerifiedBadge` component
 - [x] 1.4 Rewrite `lib/content.ts` — site config (spec §60 contact details), navigation (§3), footer (§61), FAQ (§57), CTA library (§58), trust (§67)
 - [x] 1.5 `lib/platform.ts` — 10 platform areas, each following the product page template (§73) and messaging framework (§76)
 - [x] 1.6 `lib/solutions.ts` (§31–32, §52–55), `lib/industries.ts` (§33–34), `lib/journeys.ts` (§25–30, §45, §47, §69–71)
 - [x] 1.7 `FlowDiagram` component — animated, accessible flow diagrams with branches (vertical on mobile, §74–75)
 - [x] 1.8 `WhatsAppPhone` conversation mockup (§26) and `MiniAppPhone` interactive stepper (§14, §50)
-- [x] 1.9 3D scenes: `InfinityJourney3D` (brand loop + channels flowing in, hero) and `Ecosystem3D` (labeled WALOOP hub, reusable for platform, industries and integrations)
+- [x] 1.9 3D scenes: `InfinityJourney3D` (brand loop + channels flowing in, hero) and `Ecosystem3D` (labeled OkayChat hub, reusable for platform, industries and integrations)
 
 ## Phase 2 — Global Layout
 - [x] 2.1 Header: Platform / Solutions / Industries / AI / Integrations / Pricing / Resources / Company mega menus; CTAs **Get Started** + **Book a Demo**
@@ -41,7 +41,7 @@ Core rule from the spec: **build around the customer journey, not a list of feat
 - [x] 3.6 Platform showcase — Channels, CRM, Chatbots, Automation, Mini-Apps, Payments, Dynamic Experiences, AI (each with a diagram)
 - [x] 3.7 Interactive customer journey (§50) + "From First Message to Meaningful Action" (§47)
 - [x] 3.8 WhatsApp conversation example (§26)
-- [x] 3.9 Use cases, industries, analytics preview, how WALOOP works (§39–40)
+- [x] 3.9 Use cases, industries, analytics preview, how OkayChat works (§39–40)
 - [x] 3.10 Pricing preview, FAQ, final CTA
 
 ## Phase 4 — Platform (§9–24, §41–45, §63)
@@ -82,7 +82,7 @@ Core rule from the spec: **build around the customer journey, not a list of feat
 
 ---
 
-### Items for the WALOOP team to confirm
+### Items for the OkayChat team to confirm
 - Meta Verified badge: shown at the owner's request. The spec (§66) says to verify partnership and badge claims before publishing.
 - Exact channel capabilities, payment gateways, AI content sources and integrations should be confirmed against the live product (§65).
 - Replace illustrative dashboard visuals with real screenshots when they're available (§68).

@@ -15,7 +15,7 @@ import { featureInventory, featureMatrix, platformAreas, platformHref } from "@/
 import { dashboardFlow, masterJourney, relationshipMap } from "@/lib/journeys";
 
 export const metadata: Metadata = {
-  title: "WALOOP Platform | Channels, CRM, Chatbots, Automation, Payments & AI",
+  title: "OkayChat Platform | Channels, CRM, Chatbots, Automation, Payments & AI",
   description:
     "One connected platform: supported channels, conversational CRM, chatbots, automations, WhatsApp Mini-Apps, payments, dynamic experiences, AI, analytics and workspace.",
 };
@@ -27,7 +27,7 @@ export default function PlatformPage() {
         <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[560px] bg-hero-glow" />
         <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 px-4 py-14 sm:px-6 sm:py-20 lg:grid-cols-2 lg:px-8">
           <Reveal>
-            <Badge className="mb-5">The WALOOP Platform</Badge>
+            <Badge className="mb-5">The OkayChat Platform</Badge>
             <h1 className="text-balance font-heading text-4xl font-bold leading-[1.08] tracking-tight text-text sm:text-5xl">
               {platformOverview.heading}
             </h1>
@@ -75,7 +75,7 @@ export default function PlatformPage() {
                 <p className="font-heading text-xs font-bold uppercase tracking-widest text-brand-green-deep">The dashboard</p>
                 <h3 className="mt-2 font-heading text-xl font-bold text-text">One Place to See and Manage Your Customer Operations</h3>
                 <p className="mt-2 text-sm text-text-muted">
-                  The WALOOP dashboard is the control center connecting channels, CRM, chatbots, automations, payments, AI,
+                  The OkayChat dashboard is the control center connecting channels, CRM, chatbots, automations, payments, AI,
                   analytics and workspace — open it at{" "}
                   <a href={siteConfig.appUrl} className="font-semibold text-brand-green-deep hover:underline">
                     {siteConfig.appLabel}
@@ -93,7 +93,7 @@ export default function PlatformPage() {
         <SectionHeading eyebrow="Feature matrix" title="What Each Platform Area Does" />
         <Reveal className="mt-12 overflow-x-auto rounded-2xl border border-border">
           <table className="w-full min-w-[640px] text-left text-sm">
-            <caption className="sr-only">WALOOP product feature matrix</caption>
+            <caption className="sr-only">OkayChat product feature matrix</caption>
             <thead className="bg-surface-alt">
               <tr>
                 <th scope="col" className="px-5 py-3.5 font-heading text-xs font-bold uppercase tracking-widest text-text-soft">
@@ -130,7 +130,7 @@ export default function PlatformPage() {
 
       {/* §42 Master feature inventory */}
       <Section tone="tint">
-        <SectionHeading eyebrow="Feature inventory" title="Everything Inside WALOOP" />
+        <SectionHeading eyebrow="Feature inventory" title="Everything Inside OkayChat" />
         <div className="mt-12 columns-1 gap-4 sm:columns-2 lg:columns-4">
           {featureInventory.map((g) => (
             <Reveal key={g.group} className="mb-4 break-inside-avoid">

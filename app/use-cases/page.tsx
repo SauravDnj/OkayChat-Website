@@ -9,9 +9,9 @@ import { useCaseFlows, storyboard } from "@/lib/journeys";
 import { ctaLibrary } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP Use Cases | Lead Generation, Support, E-commerce, Appointments, Marketing & AI",
+  title: "OkayChat Use Cases | Lead Generation, Support, E-commerce, Appointments, Marketing & AI",
   description:
-    "Complete WALOOP customer journeys, step by step — lead generation, customer support, e-commerce, appointments, marketing campaigns, sales, payments and AI customer support.",
+    "Complete OkayChat customer journeys, step by step — lead generation, customer support, e-commerce, appointments, marketing campaigns, sales, payments and AI customer support.",
 };
 
 export default function UseCasesPage() {
@@ -21,7 +21,7 @@ export default function UseCasesPage() {
         eyebrow="Use Cases"
         icon="Route"
         title="Complete Customer Journeys, Diagrammed"
-        description="Every example below follows one customer through connected WALOOP capabilities. Conceptual examples are labelled — they show how a capability could be used."
+        description="Every example below follows one customer through connected OkayChat capabilities. Conceptual examples are labelled — they show how a capability could be used."
       />
 
       <Section>
@@ -36,7 +36,7 @@ export default function UseCasesPage() {
 
       {/* §70 Full website storyboard */}
       <Section tone="tint">
-        <SectionHeading eyebrow="The WALOOP story" title="Ten Scenes, One Journey" />
+        <SectionHeading eyebrow="The OkayChat story" title="Ten Scenes, One Journey" />
         <RevealGroup className="mt-14 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {storyboard.map((s, i) => (
             <RevealItem key={s.scene} className="soft-panel p-5">

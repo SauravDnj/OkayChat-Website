@@ -12,9 +12,9 @@ import { getPlatformArea, platformHref } from "@/lib/platform";
 import { ctas } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP Guides | Build Chatbots, Automations, Mini-Apps, Payments & AI",
+  title: "OkayChat Guides | Build Chatbots, Automations, Mini-Apps, Payments & AI",
   description:
-    "Step-by-step overview guides for building with WALOOP — your first chatbot, a lead automation, a WhatsApp Mini-App, a payment journey, AI on your content and team setup.",
+    "Step-by-step overview guides for building with OkayChat — your first chatbot, a lead automation, a WhatsApp Mini-App, a payment journey, AI on your content and team setup.",
 };
 
 export default function GuidesPage() {
@@ -24,7 +24,7 @@ export default function GuidesPage() {
         eyebrow="Guides"
         icon="Compass"
         title="Step-by-Step Guides for Common Journeys"
-        description="Overview walkthroughs for the most common WALOOP builds. For hands-on help in your workspace, the WALOOP team is a message away."
+        description="Overview walkthroughs for the most common OkayChat builds. For hands-on help in your workspace, the OkayChat team is a message away."
         primary={ctas.getStarted}
         secondary={{ label: "Get Support", href: "/support" }}
       >
@@ -59,7 +59,7 @@ export default function GuidesPage() {
         );
       })}
 
-      <CTASection heading="Ready to Build It?" description="Open WALOOP and start your first journey — or book a guided demo." />
+      <CTASection heading="Ready to Build It?" description="Open OkayChat and start your first journey — or book a guided demo." />
     </>
   );
 }

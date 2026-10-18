@@ -12,7 +12,7 @@ import { personas, solutions, solutionsFlow } from "@/lib/solutions";
 import { ctaLibrary } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "WALOOP Solutions | Lead Generation, Marketing, Sales, Support & Automation",
+  title: "OkayChat Solutions | Lead Generation, Marketing, Sales, Support & Automation",
   description:
     "Solutions built around your business journey — lead generation, marketing, sales, customer support, customer engagement, business automation and payment journeys.",
 };
@@ -24,7 +24,7 @@ export default function SolutionsPage() {
         eyebrow="Solutions"
         icon="Route"
         title="Solutions Built Around Your Business Journey"
-        description="Whether you're capturing leads, running campaigns, supporting customers or collecting payments, WALOOP connects the capabilities each journey needs."
+        description="Whether you're capturing leads, running campaigns, supporting customers or collecting payments, OkayChat connects the capabilities each journey needs."
         visual={<FlowDiagram flow={solutionsFlow} />}
       />
 

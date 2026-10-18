@@ -11,12 +11,12 @@ import { faqs } from "@/lib/content";
 import { closingCta, hero, pricingNotes } from "@/lib/pricing";
 
 export const metadata: Metadata = {
-  title: "WALOOP Pricing | Starter ₹15,000/year, Growth ₹30,000/year, Enterprise",
+  title: "OkayChat Pricing | Starter ₹15,000/year, Growth ₹30,000/year, Enterprise",
   description:
-    "Choose the WALOOP plan that fits your business: Starter ₹15,000/year, Growth ₹30,000/year, or Enterprise custom pricing. Usage, provider, WhatsApp/Meta and payment gateway charges are separate.",
+    "Choose the OkayChat plan that fits your business: Starter ₹15,000/year, Growth ₹30,000/year, or Enterprise custom pricing. Usage, provider, WhatsApp/Meta and payment gateway charges are separate.",
 };
 
-const pricingFaqs = faqs.filter((f) => ["What are the current plans?", "Are third-party charges included?", "What is WALOOP?", "Is WALOOP only for WhatsApp?"].includes(f.question));
+const pricingFaqs = faqs.filter((f) => ["What are the current plans?", "Are third-party charges included?", "What is OkayChat?", "Is OkayChat only for WhatsApp?"].includes(f.question));
 
 export default function PricingPage() {
   return (
@@ -40,7 +40,7 @@ export default function PricingPage() {
               <p className="mt-3 font-heading text-sm font-bold text-text">{item.title}</p>
               <p className="mt-1 text-sm text-text-muted">{item.description}</p>
               <p className="mt-3 text-[11px] font-bold uppercase tracking-widest text-text-soft">
-                {i === 0 ? "Your WALOOP plan" : "Billed separately"}
+                {i === 0 ? "Your OkayChat plan" : "Billed separately"}
               </p>
             </RevealItem>
           ))}

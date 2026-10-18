@@ -85,7 +85,7 @@ export default async function SolutionPage({ params }: PageProps<"/solutions/[sl
       </Section>
 
       <Section>
-        <SectionHeading eyebrow="Capabilities used" title="The WALOOP capabilities behind this journey" />
+        <SectionHeading eyebrow="Capabilities used" title="The OkayChat capabilities behind this journey" />
         <PlatformCards slugs={solution.uses} numbered={false} className="mt-14 lg:grid-cols-3" />
       </Section>
 

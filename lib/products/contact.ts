@@ -6,7 +6,7 @@ export const hero = {
   badge: "Contact",
   title: "Let's Build Your Customer Journey",
   description:
-    "Have questions about WALOOP, plans, product capabilities, or your business use case? Connect with the WALOOP team.",
+    "Have questions about OkayChat, plans, product capabilities, or your business use case? Connect with the OkayChat team.",
 };
 
 export const contactDetails = [
@@ -14,5 +14,5 @@ export const contactDetails = [
   { icon: "Phone", title: "Phone", value: siteConfig.phone, href: siteConfig.phoneLink },
   { icon: "Mail", title: "Email", value: siteConfig.email, href: `mailto:${siteConfig.email}` },
   { icon: "Globe", title: "Website", value: siteConfig.websiteLabel, href: siteConfig.website },
-  { icon: "LayoutDashboard", title: "Application", value: siteConfig.appLabel, href: siteConfig.appUrl, note: "Log in to WALOOP" },
+  { icon: "LayoutDashboard", title: "Application", value: siteConfig.appLabel, href: siteConfig.appUrl, note: "Log in to OkayChat" },
 ];
